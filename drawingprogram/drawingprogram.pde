@@ -24,13 +24,13 @@ void keyPressed() {
 }//End keyPressed
 //
 void mousePressed() {
-  if (mouseX>=canvasX && mouseY<=canvasX+canvasWidth && mouseY>=canvasY && mouseY<=canvasY+canvasHeight) {}//Button is paper (Drawing surface/canvas)
-  
-  if (drawB1 == false) {
-    drawB1 = true;
-  } else {
-    drawB1 = false;
-  }//End draw Boolean
+  if (mouseX>=canvasX && mouseY<=canvasX+canvasWidth && mouseY>=canvasY && mouseY<=canvasY+canvasHeight) {
+    if (drawB1 == false) {
+      drawB1 = true;
+    } else {
+      drawB1 = false;
+    }//End draw Boolean
+  }//Button is paper (Drawing surface/canvas)
 }//End mousePressed
 //
 //End MAIN
