@@ -24,7 +24,7 @@ void keyPressed() {
 }//End keyPressed
 //
 void mousePressed() {
-  if () {}//Button is paper (Drawing surface/canvas)
+  if (mouseX>=canvasX && mouseY<=canvasX+canvasWidth && mouseY>=canvasY && mouseY<=canvasY+canvasHeight) {}//Button is paper (Drawing surface/canvas)
   
   if (drawB1 == false) {
     drawB1 = true;
