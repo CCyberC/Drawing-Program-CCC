@@ -5,25 +5,27 @@ float canvasX, canvasY, canvasWidth, canvasHeight;
 void setup() {
   //
   //Mandatory: Wrong displayOrientation should break app, feedback to console and CANVAS
-  size(500, 600); //fullScreen, displayWidth, displayHeight
+  size(1800, 1400); //fullScreen, displayWidth, displayHeight
   //
   //Population
-  canvasX = width; //displayWidth
-  canvasY = height; //displayHeight
-  canvasWidth = width; //displayWidth
-  canvasHeight = height; //displayHeight
+  canvasX = width*0/4; //displayWidth
+  canvasY = height*0/5; //displayHeight
+  canvasWidth = width*3/4; //displayWidth
+  canvasHeight = height*4/5; //displayHeight
   //
   rect(canvasX, canvasY, canvasWidth, canvasHeight);
 }//End setup
 //
 void draw() {
-  
+  if ( drawB1==true ) line( mouseX, mouseY, pmouseX, pmouseY ) ;//End Line Draw
 }//End draw
 //
 void keyPressed() {
 }//End keyPressed
 //
 void mousePressed() {
+  if () {}//Button is paper (Drawing surface/canvas)
+  
   if (drawB1 == false) {
     drawB1 = true;
   } else {
