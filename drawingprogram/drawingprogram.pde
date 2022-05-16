@@ -7,11 +7,7 @@ void setup() {
   //Mandatory: Wrong displayOrientation should break app, feedback to console and CANVAS
   size(1800, 1400); //fullScreen, displayWidth, displayHeight
   //
-  //Population
-  canvasX = width*0/4; //displayWidth
-  canvasY = height*0/5; //displayHeight
-  canvasWidth = width*3/4; //displayWidth
-  canvasHeight = height*4/5; //displayHeight
+  Population();
   //
   rect(canvasX, canvasY, canvasWidth, canvasHeight);
 }//End setup
