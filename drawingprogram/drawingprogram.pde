@@ -34,13 +34,6 @@ void draw() {
   if ( pen==true && mouseX>=canvasX && mouseX<=canvasX+canvasWidth && mouseY>=canvasY && mouseY<=canvasY+canvasHeight ) line( mouseX, mouseY, pmouseX, pmouseY ) ;//End Pen
   if ( pen==true && mouseX>=canvasX && mouseX<=canvasX+canvasWidth && mouseY>=canvasY && mouseY<=canvasY+canvasHeight ) ellipse ( mouseX, mouseY,  circleDiameter, circleDiameter); //Circle Drawing Tool
   //
-  //Text, Exit Button
-  fill(black); //Ink
-  textAlign (CENTER, CENTER); //Align X+Y, see Processing.org / Reference
-  //Values: [LEFT | CENTER | RIGHT] , [TOP | CENTER | BOTTOM | BASELINE]
-  size = 2; //Change units until it fits
-  textFont(font, size);
-  text(ExitString, ExitX, ExitY, ExitWidth, ExitHeight);
   //Exit HoverOver
   if ( mouseX>=ExitX && mouseX<=ExitX+ExitWidth && mouseY>=ExitY && mouseY<=ExitY+ExitHeight ) {
     ExitColour = red;
@@ -52,7 +45,14 @@ void draw() {
   rect(ExitX, ExitY, ExitWidth, ExitHeight);
   stroke(reset);
   fill(resetColour); //white:not nightMode
-  
+  //
+  //Text, Exit Button
+  fill(black); //Ink
+  textAlign (CENTER, CENTER); //Align X+Y, see Processing.org / Reference
+  //Values: [LEFT | CENTER | RIGHT] , [TOP | CENTER | BOTTOM | BASELINE]
+  size = 2; //Change units until it fits
+  textFont(font, size);
+  text(ExitString, ExitX, ExitY, ExitWidth, ExitHeight);
 }//End draw
 //
 void keyPressed() {
