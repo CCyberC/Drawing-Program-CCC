@@ -1,6 +1,7 @@
 //Global Variables
-Boolean drawB1=false;
+Boolean pen=false;
 float canvasX, canvasY, canvasWidth, canvasHeight;
+float circleDiameter;
 //
 void setup() {
   //
@@ -13,18 +14,21 @@ void setup() {
 }//End setup
 //
 void draw() {
-  if ( drawB1==true ) line( mouseX, mouseY, pmouseX, pmouseY ) ;//End Line Draw
+  //
+  //Drawing Tools
+  if ( pen==true && mouseX>=canvasX && mouseX<=canvasX+canvasWidth && mouseY>=canvasY && mouseY<=canvasY+canvasHeight ) line( mouseX, mouseY, pmouseX, pmouseY ) ;//End Pen
+  if ( pen==true && mouseX>=canvasX && mouseX<=canvasX+canvasWidth && mouseY>=canvasY && mouseY<=canvasY+canvasHeight ) ellipse ( mouseX, mouseY,  circleDiameter, circleDiameter); //Circle Drawing Tool
 }//End draw
 //
 void keyPressed() {
 }//End keyPressed
 //
 void mousePressed() {
-  if (mouseX>=canvasX && mouseY<=canvasX+canvasWidth && mouseY>=canvasY && mouseY<=canvasY+canvasHeight) {
-    if (drawB1 == false) {
-      drawB1 = true;
+  if (mouseX>=canvasX && mouseX<=canvasX+canvasWidth && mouseY>=canvasY && mouseY<=canvasY+canvasHeight) {
+    if (pen == false) {
+      pen = true;
     } else {
-      drawB1 = false;
+      pen = false;
     }//End draw Boolean
   }//Button is paper (Drawing surface/canvas)
 }//End mousePressed
