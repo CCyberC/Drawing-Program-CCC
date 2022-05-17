@@ -7,6 +7,10 @@ float ExitX, ExitY, ExitWidth, ExitHeight;
 int reset=1;
 color white=255, resetColour=white, red=#FF0303, black=0, ExitColour;
 //
+PFont font;
+int initialFontSize;
+int size;
+//
 void setup() {
   //
   //Mandatory: Wrong displayOrientation should break app, feedback to console and CANVAS
@@ -18,6 +22,8 @@ void setup() {
   ExitWidth = width*2/20;
   ExitHeight = height*1/20;
   //
+  font = createFont ("BellMT-48", initialFontSize);
+  //
   rect(canvasX, canvasY, canvasWidth, canvasHeight);
 }//End setup
 //
@@ -27,13 +33,18 @@ void draw() {
   if ( pen==true && mouseX>=canvasX && mouseX<=canvasX+canvasWidth && mouseY>=canvasY && mouseY<=canvasY+canvasHeight ) line( mouseX, mouseY, pmouseX, pmouseY ) ;//End Pen
   if ( pen==true && mouseX>=canvasX && mouseX<=canvasX+canvasWidth && mouseY>=canvasY && mouseY<=canvasY+canvasHeight ) ellipse ( mouseX, mouseY,  circleDiameter, circleDiameter); //Circle Drawing Tool
   //
+  //Text, Exit Button
+  fill(black); //Ink
+  textAlign (CENTER, CENTER); //Align X+Y, see Processing.org / Reference
+  //Values: [LEFT | CENTER | RIGHT] , [TOP | CENTER | BOTTOM | BASELINE]
+  size = 20; //Change units until it fits
+  textFont(font, size);
   //Exit HoverOver
   if ( mouseX>=ExitX && mouseX<=ExitX+ExitWidth && mouseY>=ExitY && mouseY<=ExitY+ExitHeight ) {
     ExitColour = red;
   } else {
     ExitColour = black;
   }//End Exit HoverOver
-  ExitColour = black;
   fill(ExitColour);
   noStroke();
   rect(ExitX, ExitY, ExitWidth, ExitHeight);
