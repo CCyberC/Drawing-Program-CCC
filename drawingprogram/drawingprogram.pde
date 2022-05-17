@@ -39,6 +39,7 @@ void draw() {
   //Values: [LEFT | CENTER | RIGHT] , [TOP | CENTER | BOTTOM | BASELINE]
   size = 20; //Change units until it fits
   textFont(font, size);
+  text(..., ExitX, ExitY, ExitWidth, ExitHeight);
   //Exit HoverOver
   if ( mouseX>=ExitX && mouseX<=ExitX+ExitWidth && mouseY>=ExitY && mouseY<=ExitY+ExitHeight ) {
     ExitColour = red;
