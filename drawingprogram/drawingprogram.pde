@@ -1,15 +1,16 @@
 //Global Variables
 Boolean pen=false;
-float canvasX, canvasY, canvasWidth, canvasHeight;
-float circleDiameter;
+float canvasX, canvasY, canvasWidth, canvasHeight, circleDiameter;
 //
 float ExitX, ExitY, ExitWidth, ExitHeight;
+float Text2X, Text2Y, Text2Width, Text2Height;
 int reset=1;
 color white=255, resetColour=white, red=#FF0303, black=0, ExitColour;
-String ExitString = "EXIT";
+String Exit = "EXIT";
+String Text2 = "Text";
 //
 PFont font;
-int initialFontSize;
+int initialFontSize=55;
 int size;
 //
 void setup() {
@@ -18,12 +19,17 @@ void setup() {
   size(1800, 1400); //fullScreen, displayWidth, displayHeight
   //
   Population();
-  ExitX = width*18/20;
+  ExitX = width*9/10;
   ExitY = height*0;
-  ExitWidth = width*2/20;
+  ExitWidth = width*1/10;
   ExitHeight = height*1/20;
   //
-  font = createFont ("BellMT-48", initialFontSize);
+  Text2X = ExitX;
+  Text2Y = height*1/20;
+  Text2Width = ExitWidth;
+  Text2Height = ExitHeight;
+  //
+  font = createFont ("Constantia-48", initialFontSize);
   //
   rect(canvasX, canvasY, canvasWidth, canvasHeight);
 }//End setup
@@ -50,9 +56,20 @@ void draw() {
   fill(black); //Ink
   textAlign (CENTER, CENTER); //Align X+Y, see Processing.org / Reference
   //Values: [LEFT | CENTER | RIGHT] , [TOP | CENTER | BOTTOM | BASELINE]
-  size = 2; //Change units until it fits
+  size = 20; //Change units until it fits
   textFont(font, size);
-  text(ExitString, ExitX, ExitY, ExitWidth, ExitHeight);
+  text(Exit, ExitX, ExitY, ExitWidth, ExitHeight);
+  //
+  //Second Rectangle with More Text
+  fill(white);
+  rect(Text2X, Text2Y, Text2Width, Text2Height);
+  //fill(); //Ink
+  fill(black); //Ink
+  textAlign (CENTER, CENTER); //Align X+Y, see Processing.org / Reference
+  //Values: [LEFT | CENTER | RIGHT] , [TOP | CENTER | BOTTOM | BASELINE]
+  size = 20; //Change units until it fits
+  textFont(font, size);
+  text(Text2, Text2X, Text2Y, Text2Width, Text2Height);
 }//End draw
 //
 void keyPressed() {
