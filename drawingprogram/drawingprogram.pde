@@ -56,7 +56,7 @@ void draw() {
   fill(black); //Ink
   textAlign (CENTER, CENTER); //Align X+Y, see Processing.org / Reference
   //Values: [LEFT | CENTER | RIGHT] , [TOP | CENTER | BOTTOM | BASELINE]
-  size = 20; //Change units until it fits
+  size = 25; //Change units until it fits
   textFont(font, size);
   text(Exit, ExitX, ExitY, ExitWidth, ExitHeight);
   //
@@ -67,7 +67,7 @@ void draw() {
   fill(black); //Ink
   textAlign (CENTER, CENTER); //Align X+Y, see Processing.org / Reference
   //Values: [LEFT | CENTER | RIGHT] , [TOP | CENTER | BOTTOM | BASELINE]
-  size = 20; //Change units until it fits
+  size = 25; //Change units until it fits
   textFont(font, size);
   text(Text2, Text2X, Text2Y, Text2Width, Text2Height);
 }//End draw
