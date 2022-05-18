@@ -29,7 +29,7 @@ void setup() {
   Text2Width = ExitWidth;
   Text2Height = ExitHeight;
   //
-  font = createFont ("Constantia-48", initialFontSize);
+  font = createFont ("Ebrima", initialFontSize);
   //
   rect(canvasX, canvasY, canvasWidth, canvasHeight);
 }//End setup
