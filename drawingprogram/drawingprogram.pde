@@ -7,7 +7,7 @@ float Text2X, Text2Y, Text2Width, Text2Height;
 int reset=1;
 color white=255, resetColour=white, red=#FF0303, black=0, ExitColour;
 String Exit = "EXIT";
-String Text2 = "Text";
+String Text2 = "Noice";
 //
 PFont font;
 int initialFontSize=55;
