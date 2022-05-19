@@ -26,7 +26,7 @@ void setup() {
 //
 void draw() {
   //
-  if () {
+  if ( canvo==true ) {
     CANVAS();
   }
   //Drawing Tools
@@ -79,7 +79,8 @@ void mousePressed() {
   //
   if ( mouseX>=ExitX && mouseX<=ExitX+ExitWidth && mouseY>=ExitY && mouseY<=ExitY+ExitHeight ) exit();
   //
-  if () canvo=true;
+  if ( mouseX>=Text2X && mouseX<=Text2X+Text2Width && mouseY>=Text2Y && mouseY<=Text2Y+Text2Height ) canvo=true;
+  //
 }//End mousePressed
 //
 //End MAIN
