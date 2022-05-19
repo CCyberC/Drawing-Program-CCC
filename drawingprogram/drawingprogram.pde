@@ -19,15 +19,6 @@ void setup() {
   size(1800, 1400); //fullScreen, displayWidth, displayHeight
   //
   Population();
-  ExitX = width*9/10;
-  ExitY = height*0;
-  ExitWidth = width*1/10;
-  ExitHeight = height*1/20;
-  //
-  Text2X = ExitX;
-  Text2Y = height*1/20;
-  Text2Width = ExitWidth;
-  Text2Height = ExitHeight;
   //
   font = createFont ("Ebrima", initialFontSize);
   //
