@@ -26,9 +26,8 @@ void setup() {
 //
 void draw() {
   //
-  if ( canvo==true ) {
-    CANVAS();
-  }
+  if ( canvo==true ) CANVAS();
+  //
   //Drawing Tools
   if ( pen==true && mouseX>=canvasX && mouseX<=canvasX+canvasWidth && mouseY>=canvasY && mouseY<=canvasY+canvasHeight ) line( mouseX, mouseY, pmouseX, pmouseY ) ;//End Pen
   if ( pen==true && mouseX>=canvasX && mouseX<=canvasX+canvasWidth && mouseY>=canvasY && mouseY<=canvasY+canvasHeight ) ellipse ( mouseX, mouseY,  circleDiameter, circleDiameter); //Circle Drawing Tool
