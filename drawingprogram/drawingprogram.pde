@@ -15,8 +15,8 @@ int size;
 void setup() {
   //
   //Mandatory: Wrong displayOrientation should break app, feedback to console and CANVAS
-  //size(1800, 1400); //fullScreen, displayWidth, displayHeight
-  fullScreen();
+  size(1800, 1400); //fullScreen, displayWidth, displayHeight
+  //fullScreen();
   //
   Population();
   //
@@ -31,7 +31,7 @@ void draw() {
   //
   //Drawing Tools
   //if ( ... ==true && mouseX>=canvasX && mouseX<=canvasX+canvasWidth && mouseY>=canvasY && mouseY<=canvasY+canvasHeight ) line( mouseX, mouseY, pmouseX, pmouseY ) ;//End ...
-  if ( marker==true && mouseX>=canvasX && mouseX<=canvasX+canvasWidth && mouseY>=canvasY && mouseY<=canvasY+canvasHeight ) ellipse ( mouseX, mouseY,  circleDiameter, circleDiameter); //Circle Drawing Tool
+  if ( marker==true && mouseX>=ItLX && mouseX<=ItLX+ItLW && mouseY>=ItLY && mouseY<=ItLY+ItLH ) ellipse ( mouseX, mouseY,  circleDiameter, circleDiameter); //Circle Drawing Tool
   //
   //Exit HoverOver
   if ( mouseX>=ExitX && mouseX<=ExitX+ExitWidth && mouseY>=ExitY && mouseY<=ExitY+ExitHeight ) {
