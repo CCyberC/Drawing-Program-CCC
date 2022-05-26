@@ -1,3 +1,5 @@
+float ItLX, ItLY, ItLW, ItLH;
+//
 void Population() {
   //Population
   canvasX = width*1/2; //displayWidth
@@ -5,6 +7,12 @@ void Population() {
   canvasWidth = width*12/24; //displayWidth
   canvasHeight = height*1/2; //displayHeight
   circleDiameter = width*1/100;
+  //
+  //Inside the Lines
+  ItLX = canvasX;
+  ItLY = canvasY;
+  ItLW = canvasWidth;
+  ItLH = canvasHeight;
   //
   ExitX = width*9/10;
   ExitY = height*0;
