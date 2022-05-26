@@ -1,5 +1,5 @@
 //Global Variables
-Boolean pen=false;
+Boolean marker=false;
 //
 float ExitX, ExitY, ExitWidth, ExitHeight;
 float Text2X, Text2Y, Text2Width, Text2Height;
@@ -29,8 +29,8 @@ void draw() {
   if ( canvo==true ) CANVAS();
   //
   //Drawing Tools
-  if ( pen==true && mouseX>=canvasX && mouseX<=canvasX+canvasWidth && mouseY>=canvasY && mouseY<=canvasY+canvasHeight ) line( mouseX, mouseY, pmouseX, pmouseY ) ;//End Pen
-  if ( pen==true && mouseX>=canvasX && mouseX<=canvasX+canvasWidth && mouseY>=canvasY && mouseY<=canvasY+canvasHeight ) ellipse ( mouseX, mouseY,  circleDiameter, circleDiameter); //Circle Drawing Tool
+  //if ( ... ==true && mouseX>=canvasX && mouseX<=canvasX+canvasWidth && mouseY>=canvasY && mouseY<=canvasY+canvasHeight ) line( mouseX, mouseY, pmouseX, pmouseY ) ;//End ...
+  if ( marker==true && mouseX>=canvasX && mouseX<=canvasX+canvasWidth && mouseY>=canvasY && mouseY<=canvasY+canvasHeight ) ellipse ( mouseX, mouseY,  circleDiameter, circleDiameter); //Circle Drawing Tool
   //
   //Exit HoverOver
   if ( mouseX>=ExitX && mouseX<=ExitX+ExitWidth && mouseY>=ExitY && mouseY<=ExitY+ExitHeight ) {
@@ -69,10 +69,10 @@ void keyPressed() {
 //
 void mousePressed() {
   if (mouseX>=canvasX && mouseX<=canvasX+canvasWidth && mouseY>=canvasY && mouseY<=canvasY+canvasHeight) {
-    if (pen == false) {
-      pen = true;
+    if (marker == false) {
+      marker = true;
     } else {
-      pen = false;
+      marker = false;
     }//End draw Boolean
   }//Button is paper (Drawing surface/canvas)
   //
