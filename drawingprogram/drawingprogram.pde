@@ -15,7 +15,8 @@ int size;
 void setup() {
   //
   //Mandatory: Wrong displayOrientation should break app, feedback to console and CANVAS
-  size(1800, 1400); //fullScreen, displayWidth, displayHeight
+  //size(1800, 1400); //fullScreen, displayWidth, displayHeight
+  fullScreen();
   //
   Population();
   //
