@@ -30,9 +30,12 @@ void musicSkip() {
       song[songNow].pause();
       song[songNow].rewind();
       //
+      arrayFE();
+      //
       song[songNow].play();
     } else {
       song[songNow].rewind();
+      arrayFE();
     }
   }
 }//End musicSkip
@@ -43,9 +46,12 @@ void musicBack() {
       song[songNow].pause();
       song[songNow].rewind();
       //
+      arrayFE2();
+      //
       song[songNow].play();
     } else {
       song[songNow].rewind();
+      arrayFE2();
     }
   }
 }//End musicBack
