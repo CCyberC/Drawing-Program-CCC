@@ -9,11 +9,19 @@ void musicDraw() {
 }//End musicPlay
 //
 void musicPlay() {
-  if () {} else {}
+  if () {
+    
+  } else {
+    
+  }
 }//End musicPlay
 //
 void musicStop() {
-  if () {} else {}
+  if () {
+    
+  } else {
+    
+  }
 }//End musicEnd
 //
 void musicSkip() {
