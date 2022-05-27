@@ -17,9 +17,27 @@ void musicStop() {
 }//End musicEnd
 //
 void musicSkip() {
-  
+  if () {
+    if ( song[songNow].isPlaying() ) {
+      song[songNow].pause();
+      song[songNow].rewind();
+      //
+      song[songNow].play();
+    } else {
+      song[songNow].rewind();
+    }
+  }
 }//End musicSkip
 //
 void musicBack() {
-  
+  if () {
+    if ( song[songNow].isPlaying() ) {
+      song[songNow].pause();
+      song[songNow].rewind();
+      //
+      song[songNow].play();
+    } else {
+      song[songNow].rewind();
+    }
+  }
 }//End musicBack
