@@ -33,12 +33,7 @@ void draw() {
   //if ( ... ==true && mouseX>=canvasX && mouseX<=canvasX+canvasWidth && mouseY>=canvasY && mouseY<=canvasY+canvasHeight ) line( mouseX, mouseY, pmouseX, pmouseY ) ;//End ...
   if ( marker==true && mouseX>=ItLX && mouseX<=ItLX+ItLW && mouseY>=ItLY && mouseY<=ItLY+ItLH ) ellipse ( mouseX, mouseY,  circleDiameter, circleDiameter); //Circle Drawing Tool
   //
-  //Exit HoverOver
-  if ( mouseX>=ExitX && mouseX<=ExitX+ExitWidth && mouseY>=ExitY && mouseY<=ExitY+ExitHeight ) {
-    ExitColour = red;
-  } else {
-    ExitColour = black;
-  }//End Exit HoverOver
+  hoverOver();
   fill(ExitColour);
   noStroke();
   rect(ExitX, ExitY, ExitWidth, ExitHeight);

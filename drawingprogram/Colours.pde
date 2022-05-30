@@ -36,4 +36,74 @@ String textnavy = "Navy";
 String textwhite = "White";
 String textblack = "Black";
 //
-void 
+void ColourRed() {
+  
+}//End Colours
+//
+void ColourGreen() {
+  
+}//End Colours
+//
+void ColourOrange() {
+  
+}//End Colours
+//
+void ColourBlue() {
+  
+}//End Colours
+//
+void ColourYellow() {
+  
+}//End Colours
+//
+void ColourLavender() {
+  
+}//End Colours
+//
+void ColourPink() {
+  
+}//End Colours
+//
+void ColourLightGreen() {
+  
+}//End Colours
+//
+void ColourCyan() {
+  
+}//End Colours
+//
+void ColourDarkGreen() {
+  
+}//End Colours
+//
+void ColourLightBlue() {
+  
+}//End Colours
+//
+void ColourLightBrown() {
+  
+}//End Colours
+//
+void ColourPurple() {
+  
+}//End Colours
+//
+void ColourDarkBrown() {
+  
+}//End Colours
+//
+void ColourGrey() {
+  
+}//End Colours
+//
+void ColourNavy() {
+  
+}//End Colours
+//
+void ColourWhite() {
+  
+}//End Colours
+//
+void ColourBlack() {
+  
+}//End Colours
