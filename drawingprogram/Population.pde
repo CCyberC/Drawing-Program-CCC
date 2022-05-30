@@ -1,22 +1,22 @@
 float ItLX, ItLY, ItLW, ItLH;
 String textRed = "Red";
 String textGreen = "Green";
-String textOrange = "";
-String textBlue = "";
-String textYellow = ;
-String textLavender = ;
-String textPink = ;
-String textLightGreen = ;
-String textCyan = ;
-String textDarkGreen = ;
-String textLightBlue = ;
-String textLightBrown = ;
-String textPurple = ;
-String textDarkBrown = ;
-String textgrey = ;
-String textnavy = ;
-String textwhite = ;
-String textblack = ;
+String textOrange = "Orange";
+String textBlue = "Blue";
+String textYellow = "Yellow";
+String textLavender = "Lavender";
+String textPink = "Pink";
+String textLightGreen = "Light Green";
+String textCyan = "Cyan";
+String textDarkGreen = "Dark Green";
+String textLightBlue = "Light Blue";
+String textLightBrown = "Light Brown";
+String textPurple = "Purple";
+String textDarkBrown = "Dark Brown";
+String textgrey = "Grey";
+String textnavy = "Navy";
+String textwhite = "White";
+String textblack = "Black";
 //
 void Population() {
   //Population
