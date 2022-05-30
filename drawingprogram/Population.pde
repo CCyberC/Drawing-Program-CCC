@@ -1,4 +1,22 @@
 float ItLX, ItLY, ItLW, ItLH;
+String textRed = "Red";
+String textGreen = "Green";
+String textOrange = "";
+String textBlue = "";
+String textYellow = ;
+String textLavender = ;
+String textPink = ;
+String textLightGreen = ;
+String textCyan = ;
+String textDarkGreen = ;
+String textLightBlue = ;
+String textLightBrown = ;
+String textPurple = ;
+String textDarkBrown = ;
+String textgrey = ;
+String textnavy = ;
+String textwhite = ;
+String textblack = ;
 //
 void Population() {
   //Population
