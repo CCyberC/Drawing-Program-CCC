@@ -33,12 +33,8 @@ void draw() {
   //if ( ... ==true && mouseX>=canvasX && mouseX<=canvasX+canvasWidth && mouseY>=canvasY && mouseY<=canvasY+canvasHeight ) line( mouseX, mouseY, pmouseX, pmouseY ) ;//End ...
   if ( marker==true && mouseX>=ItLX && mouseX<=ItLX+ItLW && mouseY>=ItLY && mouseY<=ItLY+ItLH ) ellipse ( mouseX, mouseY,  circleDiameter, circleDiameter); //Circle Drawing Tool
   //
-  hoverOver();
-  fill(ExitColour);
-  noStroke();
-  rect(ExitX, ExitY, ExitWidth, ExitHeight);
-  stroke(reset);
-  fill(resetColour); //white:not nightMode
+  hoverOverExit();
+  exitButton();
   //
   //Text, Exit Button
   fill(black); //Ink

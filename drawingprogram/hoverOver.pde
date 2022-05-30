@@ -1,6 +1,6 @@
 
 //
-void hoverOver() {
+void hoverOverExit() {
   //Exit HoverOver
   if ( mouseX>=ExitX && mouseX<=ExitX+ExitWidth && mouseY>=ExitY && mouseY<=ExitY+ExitHeight ) {
     ExitColour = red;
