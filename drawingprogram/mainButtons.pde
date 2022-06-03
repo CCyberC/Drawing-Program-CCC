@@ -18,3 +18,26 @@ void textExitButton() {
   text(Exit, ExitX, ExitY, ExitWidth, ExitHeight);
 }//End textExitButton
 //
+void framesButton() {}//End framesButton
+//
+void framesBT() {}//End framesBT
+//
+void pagesButton() {}//End pagesButton
+//
+void pagesBT() {}//End pagesBT
+//
+void toolsButton() {}//End toolsButton
+//
+void toolsBT() {}//End toolsBT
+//
+void coloursButton() {}//End coloursButton
+//
+void coloursBT() {}//End coloursBT
+//
+void musicButton() {}//End musicButton
+//
+void musicBT() {}//End musicBT
+//
+void guidesButton() {}//End guidesButton
+//
+void guidesBT() {}//End guidesBT
