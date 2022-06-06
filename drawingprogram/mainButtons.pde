@@ -172,26 +172,38 @@ void textExitButton() {
   text(Exit, ExitX, ExitY, ExitWidth, ExitHeight);
 }//End textExitButton
 //
-void framesButton() {}//End framesButton
+void framesButton() {
+  rect(rMX19, rMY19, rMWidth, rMHeight);
+}//End framesButton
 //
 void framesBT() {}//End framesBT
 //
-void pagesButton() {}//End pagesButton
+void pagesButton() {
+  rect(rMX14, rMY14, rMWidth, rMHeight);
+}//End pagesButton
 //
 void pagesBT() {}//End pagesBT
 //
-void toolsButton() {}//End toolsButton
+void toolsButton() {
+  rect(rMX1, rMY1, rMWidth, rMHeight);
+}//End toolsButton
 //
 void toolsBT() {}//End toolsBT
 //
-void coloursButton() {}//End coloursButton
+void coloursButton() {
+  rect(rMX38, rMY38, rMWidth, rMHeight);
+}//End coloursButton
 //
 void coloursBT() {}//End coloursBT
 //
-void musicButton() {}//End musicButton
+void musicButton() {
+  rect(rMX33, rMY33, rMWidth, rMHeight);
+}//End musicButton
 //
 void musicBT() {}//End musicBT
 //
-void guidesButton() {}//End guidesButton
+void guidesButton() {
+  rect(rMX28, rMY28, rMWidth, rMHeight);
+}//End guidesButton
 //
 void guidesBT() {}//End guidesBT
