@@ -5,7 +5,7 @@ float ExitX, ExitY, ExitWidth, ExitHeight;
 float Text2X, Text2Y, Text2Width, Text2Height;
 int reset=1;
 color white=255, resetColour=white, red=#FF0303, black=0; 
-color ExitColour, nBColour, RedColour, GreenColour;
+color ExitColour, nB1Colour, nB2Colour, nB3Colour, nB4Colour, nB5Colour, nB6Colour, RedColour, GreenColour;
 String Exit = "EXIT";
 String Text2 = "Noice";
 //
@@ -37,11 +37,17 @@ void draw() {
   hoverOverExit();
   exitButton();
   textExitButton();
+  //
   toolsButton();
+  //
   pagesButton();
+  //
   framesButton();
+  //
   guidesButton();
+  //
   musicButton();
+  //
   coloursButton();
   //
   //Second Rectangle with More Text

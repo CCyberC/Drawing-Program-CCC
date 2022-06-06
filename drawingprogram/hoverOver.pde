@@ -26,18 +26,63 @@ void hoverOverExit() {
   }
 }//End Exit HoverOver
 //
-void nBHO() {
+void nBHO1() {
   //Exit HoverOver
   if ( mouseX>=ExitX && mouseX<=ExitX+ExitWidth && mouseY>=ExitY && mouseY<=ExitY+ExitHeight ) {
-    nBColour = coGrey;
+    nB1Colour = coGrey;
   } else {
-    nBColour = white;
+    nB1Colour = white;
+  }
+}//End Exit HoverOver
+//
+void nBHO2() {
+  //Exit HoverOver
+  if ( mouseX>=ExitX && mouseX<=ExitX+ExitWidth && mouseY>=ExitY && mouseY<=ExitY+ExitHeight ) {
+    nB2Colour = coGrey;
+  } else {
+    nB2Colour = white;
+  }
+}//End Exit HoverOver
+//
+void nBHO3() {
+  //Exit HoverOver
+  if ( mouseX>=ExitX && mouseX<=ExitX+ExitWidth && mouseY>=ExitY && mouseY<=ExitY+ExitHeight ) {
+    nB3Colour = coGrey;
+  } else {
+    nB3Colour = white;
+  }
+}//End Exit HoverOver
+//
+void nBHO4() {
+  //Exit HoverOver
+  if ( mouseX>=ExitX && mouseX<=ExitX+ExitWidth && mouseY>=ExitY && mouseY<=ExitY+ExitHeight ) {
+    nB4Colour = coGrey;
+  } else {
+    nB4Colour = white;
+  }
+}//End Exit HoverOver
+//
+void nBHO5() {
+  //Exit HoverOver
+  if ( mouseX>=ExitX && mouseX<=ExitX+ExitWidth && mouseY>=ExitY && mouseY<=ExitY+ExitHeight ) {
+    nB5Colour = coGrey;
+  } else {
+    nB5Colour = white;
+  }
+}//End Exit HoverOver
+//
+void nBHO6() {
+  //Exit HoverOver
+  if ( mouseX>=ExitX && mouseX<=ExitX+ExitWidth && mouseY>=ExitY && mouseY<=ExitY+ExitHeight ) {
+    nB6Colour = coGrey;
+  } else {
+    nB6Colour = white;
   }
 }//End Exit HoverOver
 //
 void hOERed() {
   //Exit HoverOver
-  if ( mouseX>=ExitX && mouseX<=ExitX+ExitWidth && mouseY>=ExitY && mouseY<=ExitY+ExitHeight ) {
+  if ( mouseX>=rMX39 && mouseX<=rMX39+r4Width && mouseY>=rMY39 && mouseY<=rMY39+r3Height ) {
     RedColour = coLRed;
   } else {
     RedColour = coRed;

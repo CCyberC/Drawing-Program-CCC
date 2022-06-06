@@ -173,7 +173,7 @@ void textExitButton() {
 }//End textExitButton
 //
 void framesButton() {
-  fill(nBColour);
+  fill(nB3Colour);
   noStroke();
   rect(rMX19, rMY19, rMWidth, rMHeight);
   stroke(reset);
@@ -183,7 +183,7 @@ void framesButton() {
 void framesBT() {}//End framesBT
 //
 void pagesButton() {
-  fill(ExitColour);
+  fill(nB2Colour);
   noStroke();
   rect(rMX14, rMY14, rMWidth, rMHeight);
   stroke(reset);
@@ -193,7 +193,7 @@ void pagesButton() {
 void pagesBT() {}//End pagesBT
 //
 void toolsButton() {
-  fill(ExitColour);
+  fill(nB1Colour);
   noStroke();
   rect(rMX1, rMY1, rMWidth, rMHeight);
   stroke(reset);
@@ -203,7 +203,7 @@ void toolsButton() {
 void toolsBT() {}//End toolsBT
 //
 void coloursButton() {
-  fill(ExitColour);
+  fill(nB6Colour);
   noStroke();
   rect(rMX38, rMY38, rMWidth, rMHeight);
   stroke(reset);
@@ -213,7 +213,7 @@ void coloursButton() {
 void coloursBT() {}//End coloursBT
 //
 void musicButton() {
-  fill(ExitColour);
+  fill(nB5Colour);
   noStroke();
   rect(rMX33, rMY33, rMWidth, rMHeight);
   stroke(reset);
@@ -223,7 +223,7 @@ void musicButton() {
 void musicBT() {}//End musicBT
 //
 void guidesButton() {
-  fill(ExitColour);
+  fill(nB4Colour);
   noStroke();
   rect(rMX28, rMY28, rMWidth, rMHeight);
   stroke(reset);
