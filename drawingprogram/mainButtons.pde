@@ -1,6 +1,10 @@
 float rMWidth, rMHeight, r2Width, r2Height, r3Width, r3Height, r4Width;
-float rMX1, rMX2, rMX3, rMX4, rMX5, rMX6, rMX1, rMX2, rMX3, rMX4, rMX5, rMX6, rMX1, rMX2, rMX3, rMX4, rMX5, rMX6, rMX1, rMX2, rMX3, rMX4, rMX5, rMX6;
-float rMY1, rMY2, rMY3, rMY4, rMY5, rMY6, rMY1, rMY2, rMY3, rMY4, rMY5, rMY6, rMY1, rMY2, rMY3, rMY4, rMY5, rMY6, rMY1, rMY2, rMY3, rMY4, rMY5, rMY6;
+//
+float rMX1, rMX2, rMX3, rMX4, rMX5, rMX6, rMX7, rMX8, rMX9, rMX10, rMX11, rMX12;
+float rMX13, rMX14, rMX15, rMX16, rMX17, rMX18, rMX19, rMX20, rMX21, rMX22, rMX23, rMX24;
+//
+float rMY1, rMY2, rMY3, rMY4, rMY5, rMY6, rMY7, rMY8, rMY9, rMY10, rMY11, rMY12;
+float rMY13, rMY14, rMY15, rMY16, rMY17, rMY18, rMY19, rMY20, rMY21, rM22, rMY23, rMY24;
 //
 void mBPopulations() {
   
