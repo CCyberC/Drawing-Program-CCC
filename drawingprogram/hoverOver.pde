@@ -23,7 +23,168 @@ void hoverOverExit() {
     ExitColour = red;
   } else {
     ExitColour = black;
-  }//End Exit HoverOver
-  //
-  
-}//End hoverOver
+  }
+}//End Exit HoverOver
+//
+void hOERed() {
+  //Exit HoverOver
+  if ( mouseX>=ExitX && mouseX<=ExitX+ExitWidth && mouseY>=ExitY && mouseY<=ExitY+ExitHeight ) {
+    ExitColour = red;
+  } else {
+    ExitColour = black;
+  }
+}//End Exit HoverOver
+//
+void hOEGreen() {
+  //Exit HoverOver
+  if ( mouseX>=ExitX && mouseX<=ExitX+ExitWidth && mouseY>=ExitY && mouseY<=ExitY+ExitHeight ) {
+    ExitColour = red;
+  } else {
+    ExitColour = black;
+  }
+}//End Exit HoverOver
+//
+void hOEOrange() {
+  //Exit HoverOver
+  if ( mouseX>=ExitX && mouseX<=ExitX+ExitWidth && mouseY>=ExitY && mouseY<=ExitY+ExitHeight ) {
+    ExitColour = red;
+  } else {
+    ExitColour = black;
+  }
+}//End Exit HoverOver
+//
+void hOEBlue() {
+  //Exit HoverOver
+  if ( mouseX>=ExitX && mouseX<=ExitX+ExitWidth && mouseY>=ExitY && mouseY<=ExitY+ExitHeight ) {
+    ExitColour = red;
+  } else {
+    ExitColour = black;
+  }
+}//End Exit HoverOver
+//
+void hOEYellow() {
+  //Exit HoverOver
+  if ( mouseX>=ExitX && mouseX<=ExitX+ExitWidth && mouseY>=ExitY && mouseY<=ExitY+ExitHeight ) {
+    ExitColour = red;
+  } else {
+    ExitColour = black;
+  }
+}//End Exit HoverOver
+//
+void hOELavender() {
+  //Exit HoverOver
+  if ( mouseX>=ExitX && mouseX<=ExitX+ExitWidth && mouseY>=ExitY && mouseY<=ExitY+ExitHeight ) {
+    ExitColour = red;
+  } else {
+    ExitColour = black;
+  }
+}//End Exit HoverOver
+//
+void hOEPink() {
+  //Exit HoverOver
+  if ( mouseX>=ExitX && mouseX<=ExitX+ExitWidth && mouseY>=ExitY && mouseY<=ExitY+ExitHeight ) {
+    ExitColour = red;
+  } else {
+    ExitColour = black;
+  }
+}//End Exit HoverOver
+//
+void hOELightGreen() {
+  //Exit HoverOver
+  if ( mouseX>=ExitX && mouseX<=ExitX+ExitWidth && mouseY>=ExitY && mouseY<=ExitY+ExitHeight ) {
+    ExitColour = red;
+  } else {
+    ExitColour = black;
+  }
+}//End Exit HoverOver
+//
+void hOECyan() {
+  //Exit HoverOver
+  if ( mouseX>=ExitX && mouseX<=ExitX+ExitWidth && mouseY>=ExitY && mouseY<=ExitY+ExitHeight ) {
+    ExitColour = red;
+  } else {
+    ExitColour = black;
+  }
+}//End Exit HoverOver
+//
+void hOEDarkGreen() {
+  //Exit HoverOver
+  if ( mouseX>=ExitX && mouseX<=ExitX+ExitWidth && mouseY>=ExitY && mouseY<=ExitY+ExitHeight ) {
+    ExitColour = red;
+  } else {
+    ExitColour = black;
+  }
+}//End Exit HoverOver
+//
+void hOELightBlue() {
+  //Exit HoverOver
+  if ( mouseX>=ExitX && mouseX<=ExitX+ExitWidth && mouseY>=ExitY && mouseY<=ExitY+ExitHeight ) {
+    ExitColour = red;
+  } else {
+    ExitColour = black;
+  }
+}//End Exit HoverOver
+//
+void hOELightBrown() {
+  //Exit HoverOver
+  if ( mouseX>=ExitX && mouseX<=ExitX+ExitWidth && mouseY>=ExitY && mouseY<=ExitY+ExitHeight ) {
+    ExitColour = red;
+  } else {
+    ExitColour = black;
+  }
+}//End Exit HoverOver
+//
+void hOEPurple() {
+  //Exit HoverOver
+  if ( mouseX>=ExitX && mouseX<=ExitX+ExitWidth && mouseY>=ExitY && mouseY<=ExitY+ExitHeight ) {
+    ExitColour = red;
+  } else {
+    ExitColour = black;
+  }
+}//End Exit HoverOver
+//
+void hOEDarkBlue() {
+  //Exit HoverOver
+  if ( mouseX>=ExitX && mouseX<=ExitX+ExitWidth && mouseY>=ExitY && mouseY<=ExitY+ExitHeight ) {
+    ExitColour = red;
+  } else {
+    ExitColour = black;
+  }
+}//End Exit HoverOver
+//
+void hOEGrey() {
+  //Exit HoverOver
+  if ( mouseX>=ExitX && mouseX<=ExitX+ExitWidth && mouseY>=ExitY && mouseY<=ExitY+ExitHeight ) {
+    ExitColour = red;
+  } else {
+    ExitColour = black;
+  }
+}//End Exit HoverOver
+//
+void hOENavy() {
+  //Exit HoverOver
+  if ( mouseX>=ExitX && mouseX<=ExitX+ExitWidth && mouseY>=ExitY && mouseY<=ExitY+ExitHeight ) {
+    ExitColour = red;
+  } else {
+    ExitColour = black;
+  }
+}//End Exit HoverOver
+//
+void hOEWhite() {
+  //Exit HoverOver
+  if ( mouseX>=ExitX && mouseX<=ExitX+ExitWidth && mouseY>=ExitY && mouseY<=ExitY+ExitHeight ) {
+    ExitColour = red;
+  } else {
+    ExitColour = black;
+  }
+}//End Exit HoverOver
+//
+void hOEBlack() {
+  //Exit HoverOver
+  if ( mouseX>=ExitX && mouseX<=ExitX+ExitWidth && mouseY>=ExitY && mouseY<=ExitY+ExitHeight ) {
+    ExitColour = red;
+  } else {
+    ExitColour = black;
+  }
+}//End Exit HoverOver
+//
