@@ -89,8 +89,8 @@ void bPopulations() {
   rMX56 = (4/24)+(8*r4Width);
   //
   //
-  rMY1 = ;
-  rMY2 = ;
+  rMY1 = (8/10)*(1/6);
+  rMY2 = (0/6);
   rMY3 = ;
   rMY4 = ;
   rMY5 = ;
