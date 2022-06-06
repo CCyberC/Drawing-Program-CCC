@@ -25,6 +25,24 @@ void bPopulations() {
   rMX4 = ;
   rMX5 = ;
   rMX6 = ;
+  rMX7 = ; 
+  rMX8 = ;
+  rMX9 = ;
+  rMX10 = ; 
+  rMX11 = ; 
+  rMX12 = ;
+  rMX13 = ; 
+  rMX14 = ; 
+  rMX15 = ;
+  rMX16 = ;
+  rMX17 = ;
+  rMX18 = ;
+  rMX19 = ;
+  rMX20 = ;
+  rMX21 = ;
+  rMX22 = ;
+  rMX23 = ;
+  rMX24 = ;
   //
   rMY1 = ;
   rMY2 = ;
@@ -32,6 +50,24 @@ void bPopulations() {
   rMY4 = ;
   rMY5 = ;
   rMY6 = ;
+  rMY7 = ;
+  rMY8 = ;
+  rMY9 = ;
+  rMY10 = ;
+  rMY11 = ;
+  rMY12 = ;
+  rMY13 = ;
+  rMY14 = ;
+  rMY15 = ;
+  rMY16 = ;
+  rMY17 = ;
+  rMY18 = ;
+  rMY19 = ;
+  rMY20 = ;
+  rMY21 = ;
+  rM22 = ;
+  rMY23 = ; 
+  rMY24 = ;
 }//End bPopulations
 //
 void exitButton() {
