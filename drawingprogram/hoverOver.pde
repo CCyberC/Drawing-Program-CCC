@@ -28,7 +28,7 @@ void hoverOverExit() {
 //
 void nBHO1() {
   //Exit HoverOver
-  if ( mouseX>=ExitX && mouseX<=ExitX+ExitWidth && mouseY>=ExitY && mouseY<=ExitY+ExitHeight ) {
+  if ( mouseX>=rMX1 && mouseX<=rMX1+rMWidth && mouseY>=rMY1 && mouseY<=rMY1+rMHeight ) {
     nB1Colour = coGrey;
   } else {
     nB1Colour = white;
@@ -37,7 +37,7 @@ void nBHO1() {
 //
 void nBHO2() {
   //Exit HoverOver
-  if ( mouseX>=ExitX && mouseX<=ExitX+ExitWidth && mouseY>=ExitY && mouseY<=ExitY+ExitHeight ) {
+  if ( mouseX>=rMX14 && mouseX<=rMX14+rMWidth && mouseY>=rMY14 && mouseY<=rMY14+rMHeight ) {
     nB2Colour = coGrey;
   } else {
     nB2Colour = white;
@@ -46,7 +46,7 @@ void nBHO2() {
 //
 void nBHO3() {
   //Exit HoverOver
-  if ( mouseX>=ExitX && mouseX<=ExitX+ExitWidth && mouseY>=ExitY && mouseY<=ExitY+ExitHeight ) {
+  if ( mouseX>=rMX19 && mouseX<=rMX19+rMWidth && mouseY>=rMY19 && mouseY<=rMY19+rMHeight ) {
     nB3Colour = coGrey;
   } else {
     nB3Colour = white;
@@ -55,7 +55,7 @@ void nBHO3() {
 //
 void nBHO4() {
   //Exit HoverOver
-  if ( mouseX>=ExitX && mouseX<=ExitX+ExitWidth && mouseY>=ExitY && mouseY<=ExitY+ExitHeight ) {
+  if ( mouseX>=rMX28 && mouseX<=rMX28+rMWidth && mouseY>=rMY28 && mouseY<=rMY28+rMHeight ) {
     nB4Colour = coGrey;
   } else {
     nB4Colour = white;
@@ -64,7 +64,7 @@ void nBHO4() {
 //
 void nBHO5() {
   //Exit HoverOver
-  if ( mouseX>=ExitX && mouseX<=ExitX+ExitWidth && mouseY>=ExitY && mouseY<=ExitY+ExitHeight ) {
+  if ( mouseX>=rMX33 && mouseX<=rMX33+rMWidth && mouseY>=rMY33 && mouseY<=rMY33+rMHeight ) {
     nB5Colour = coGrey;
   } else {
     nB5Colour = white;
@@ -73,7 +73,7 @@ void nBHO5() {
 //
 void nBHO6() {
   //Exit HoverOver
-  if ( mouseX>=ExitX && mouseX<=ExitX+ExitWidth && mouseY>=ExitY && mouseY<=ExitY+ExitHeight ) {
+  if ( mouseX>=rMX38 && mouseX<=rMX38+rMWidth && mouseY>=rMY38 && mouseY<=rMY38+rMHeight ) {
     nB6Colour = coGrey;
   } else {
     nB6Colour = white;
