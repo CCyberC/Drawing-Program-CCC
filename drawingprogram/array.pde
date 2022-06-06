@@ -1,3 +1,4 @@
+/*
 void arrayFE() {
   if ( songNow == songNum - 1 ) {
     songNow= songNum - songNum;
@@ -13,3 +14,4 @@ void arrayFE2() {
     songNum --;
   }
 }//End arrayFE2
+*/
