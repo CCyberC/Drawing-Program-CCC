@@ -1,4 +1,4 @@
-float rMWidth, rMHeight, r2Width, r2Height, r3Width, r3Height, r4Width, pDiameter;
+float rMWidth, rMHeight, r2Width, r2Height, r3Width, r3Height, r4Width;
 float rMX1, rMX2, rMX3, rMX4, rMX5, rMX6;
 float rMY1, rMY2, rMY3, rMY4, rMY5, rMY6;
 //
