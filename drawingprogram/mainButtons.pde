@@ -38,34 +38,36 @@ void bPopulations() {
   rMX11 = (4/24)+(9*r2Width); 
   rMX12 = (4/24)+(10*r2Width);
   rMX13 = (4/24)+(11*r2Width); 
-  rMX14 = (4/24)+(12*r2Width); 
-  rMX15 = rMX1;
-  rMX16 = rMX2;
-  rMX17 = (4/24)+r3Width;
-  rMX18 = (4/24)+(2*r3Width);
-  rMX19 = (4/24)+(3*r3Width);
-  rMX20 = (4/24)+(4*r3Width);
-  rMX21 = rMX1;
-  rMX22 = rMX2;
-  rMX23 = (4/24)+(2*r3Width);
-  rMX24 = (4/24)+(3*r3Width);
-  rMX25 = (4/24)*(4*r3Width);
   //
-  rMX26 = (4/24);
-  rMX27 = (4/24)+r2Width;
-  rMX28 = (4/24)+(2*r2Width);
-  rMX29 = (4/24)+(3*r2Width);
-  rMX30 = (4/24)+(4*r2Width);
-  rMX31 = (4/24)+(5*r2Width); 
-  rMX32 = (4/24)+(6*r2Width);
-  rMX33 = (4/24)+(7*r2Width);
-  rMX34 = (4/24)+(8*r2Width); 
-  rMX35 = (4/24)+(9*r2Width); 
-  rMX36 = (4/24)+(10*r2Width);
-  rMX37 = (4/24)+(11*r2Width); 
-  rMX38 = (4/24)+(12*r2Width); 
-  rMX39 = rMX1;
-  rMX40 = rMX2;
+  rMX14 = rMX1;
+  rMX15 = rMX2;
+  rMX16 = (4/24)+r3Width;
+  rMX17 = (4/24)+(2*r3Width);
+  rMX18 = (4/24)+(3*r3Width);
+  //
+  rMX19 = rMX1;
+  rMX20 = rMX2;
+  rMX21 = (4/24)+(2*r3Width);
+  rMX22 = (4/24)+(3*r3Width);
+  rMX23 = (4/24)*(4*r3Width);
+  //
+  rMX24 = rMX2;
+  rMX25 = (4/24)+r2Width;
+  rMX26 = (4/24)+(2*r3Width);
+  rMX27 = (4/24)+(3*r3Width);
+  //
+  rMX28 = rMX1; 
+  rMX29 = rMX2;
+  rMX30 = (4/24)+r2Width;
+  rMX31 = (4/24)+(2*r2Width); 
+  rMX32 = (4/24)+(3*r2Width); 
+  //
+  rMX33 = rMX1;
+  rMX34 = rMX2; 
+  rMX35 = (4/24)+r2Width; 
+  rMX36 = (4/24)+(2*r2Width);
+  rMX37 = (4/24)+(3*r2Width);
+  //
   rMX41 = (4/24)+r3Width;
   rMX42 = (4/24)+(2*r3Width);
   rMX43 = (4/24)+(3*r3Width);
