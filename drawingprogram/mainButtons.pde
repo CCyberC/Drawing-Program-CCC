@@ -1,8 +1,12 @@
 float rMWidth, rMHeight, r2Width, r2Height, r3Width, r3Height, r4Width;
-float rMX1, rMX2, rMX3, rMX4, rMX5, rMX6;
-float rMY1, rMY2, rMY3, rMY4, rMY5, rMY6;
+float rMX1, rMX2, rMX3, rMX4, rMX5, rMX6, rMX1, rMX2, rMX3, rMX4, rMX5, rMX6, rMX1, rMX2, rMX3, rMX4, rMX5, rMX6, rMX1, rMX2, rMX3, rMX4, rMX5, rMX6;
+float rMY1, rMY2, rMY3, rMY4, rMY5, rMY6, rMY1, rMY2, rMY3, rMY4, rMY5, rMY6, rMY1, rMY2, rMY3, rMY4, rMY5, rMY6, rMY1, rMY2, rMY3, rMY4, rMY5, rMY6;
 //
 void mBPopulations() {
+  
+}//End mBPopulations
+//
+void bPopulations() {
   rMWidth = (14/16)*(4/24);
   rMHeight = (8/10)*(1/6);
   r2Width = (1/12)*(20/24);
@@ -10,8 +14,21 @@ void mBPopulations() {
   r3Width = (1/4)*(8/24);
   r3Height = (1/2)*(1/6);
   r4Width = (1/9)*(20/24);
-  
-}//mBPopulations
+  //
+  rMX1 = ;
+  rMX2 = ;
+  rMX3 = ;
+  rMX4 = ;
+  rMX5 = ;
+  rMX6 = ;
+  //
+  rMY1 = ;
+  rMY2 = ;
+  rMY3 = ;
+  rMY4 = ;
+  rMY5 = ;
+  rMY6 = ;
+}//End bPopulations
 //
 void exitButton() {
   fill(ExitColour);
