@@ -36,6 +36,12 @@ void draw() {
   hoverOverExit();
   exitButton();
   textExitButton();
+  toolsButton();
+  pagesButton();
+  framesButton();
+  guidesButton();
+  musicButton();
+  coloursButton();
   //
   //Second Rectangle with More Text
   fill(white);
