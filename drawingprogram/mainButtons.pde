@@ -7,7 +7,7 @@ float rMX37, rMX38, rMX39, rMX40, rMX41, rMX42, rMX43, rMX44, rMX45, rMX46, rMX4
 float rMX49, rMX50, rMX51, rMX52, rMX53, rMX54, rMX55, rMX56, rMX57, rMX58, rMX59, rMX60;
 //
 float rMY1, rMY2, rMY3, rMY4, rMY5, rMY6, rMY7, rMY8, rMY9, rMY10, rMY11, rMY12;
-float rMY13, rMY14, rMY15, rMY16, rMY17, rMY18, rMY19, rMY20, rMY21, rM22, rMY23, rMY24;
+float rMY13, rMY14, rMY15, rMY16, rMY17, rMY18, rMY19, rMY20, rMY21, rMY22, rMY23, rMY24;
 float rMY25, rMY26, rMY27, rMY28, rMY29, rMY30, rMY31, rMY32, rMY33, rMY34, rMY35, rMY36;
 float rMY37, rMY38, rMY39, rMY40, rMY41, rMY42, rMY43, rMY44, rMY45, rMY46, rMY47, rMY48;
 float rMY49, rMY50, rMY51, rMY52, rMY53, rMY54, rMY55, rMY56, rMY57, rMY58, rMY59, rMY60;
@@ -89,53 +89,60 @@ void bPopulations() {
   rMX56 = (4/24)+(8*r4Width);
   //
   //
-  rMY1 = (8/10)*(1/6);
+  rMY1 = (1/10)*(1/6);
   rMY2 = (0/6);
-  rMY3 = ;
-  rMY4 = ;
-  rMY5 = ;
-  rMY6 = ;
-  rMY7 = ;
-  rMY8 = ;
-  rMY9 = ;
-  rMY10 = ;
-  rMY11 = ;
-  rMY12 = ;
-  rMY13 = ;
-  rMY14 = ;
-  rMY15 = ;
-  rMY16 = ;
-  rMY17 = ;
-  rMY18 = ;
-  rMY19 = ;
-  rMY20 = ;
-  rMY21 = ;
-  rM22 = ;
-  rMY23 = ; 
-  rMY24 = ;
-  rMY25 = ;
-  rMY26 = ;
-  rMY27 = ;
-  rMY28 = ;
-  rMY29 = ;
-  rMY30 = ;
-  rMY31 = ;
-  rMY32 = ;
-  rMY33 = ;
-  rMY34 = ;
-  rMY35 = ;
-  rMY36 = ;
-  rMY37 = ;
-  rMY38 = ;
-  rMY39 = ;
-  rMY40 = ;
-  rMY41 = ;
-  rMY42 = ;
-  rMY43 = ;
-  rMY44 = ;
-  rMY45 = ;
-  rMY46 = ;
-  rMY47 = ; 
+  rMY3 = rMY2;
+  rMY4 = rMY2;
+  rMY5 = rMY2;
+  rMY6 = rMY2;
+  rMY7 = rMY2;
+  rMY8 = rMY2;
+  rMY9 = rMY2;
+  rMY10 = rMY2;
+  rMY11 = rMY2;
+  rMY12 = rMY2;
+  rMY13 = rMY2;
+  //
+  rMY14 = rMY1+(1/6);
+  rMY15 = (1/6);
+  rMY16 = rMY15;
+  rMY17 = rMY15;
+  rMY18 = rMY15;
+  //
+  rMY19 = rMY1+(2/6);
+  rMY20 = (2/6);
+  rMY21 = rMY20;
+  rMY22 = rMY20;
+  rMY23 = rMY20; 
+  //
+  rMY24 = rMY20+((1/2)*(1/6));
+  rMY25 = rMY24;
+  rMY26 = rMY24;
+  rMY27 = rMY24;
+  //
+  rMY28 = rMY1+(3/6);
+  rMY29 = (3/6);
+  rMY30 = rMY29;
+  rMY31 = rMY29;
+  rMY32 = rMY29;
+  //
+  rMY33 = rMY1+(4/6);
+  rMY34 = (4/6);
+  rMY35 = rMY34;
+  rMY36 = rMY34;
+  rMY37 = rMY34;
+  //
+  rMY38 = rMY1+(5/6);
+  rMY39 = (5/6);
+  rMY40 = rMY39;
+  rMY41 = rMY39;
+  rMY42 = rMY39;
+  rMY43 = rMY39;
+  rMY44 = rMY39;
+  rMY45 = rMY39;
+  rMY46 = rMY39;
+  rMY47 = rMY39; 
+  //
   rMY48 = ;
   rMY49 = ;
   rMY50 = ;
