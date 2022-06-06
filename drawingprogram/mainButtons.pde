@@ -10,7 +10,6 @@ void mBPopulations() {
   r3Width = (1/4)*(8/24);
   r3Height = (1/2)*(1/6);
   r4Width = (1/9)*(20/24);
-  pDiameter = ;
   
 }//mBPopulations
 //
