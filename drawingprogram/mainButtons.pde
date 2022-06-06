@@ -173,37 +173,61 @@ void textExitButton() {
 }//End textExitButton
 //
 void framesButton() {
+  fill(nBColour);
+  noStroke();
   rect(rMX19, rMY19, rMWidth, rMHeight);
+  stroke(reset);
+  fill(resetColour);
 }//End framesButton
 //
 void framesBT() {}//End framesBT
 //
 void pagesButton() {
+  fill(ExitColour);
+  noStroke();
   rect(rMX14, rMY14, rMWidth, rMHeight);
+  stroke(reset);
+  fill(resetColour);
 }//End pagesButton
 //
 void pagesBT() {}//End pagesBT
 //
 void toolsButton() {
+  fill(ExitColour);
+  noStroke();
   rect(rMX1, rMY1, rMWidth, rMHeight);
+  stroke(reset);
+  fill(resetColour);
 }//End toolsButton
 //
 void toolsBT() {}//End toolsBT
 //
 void coloursButton() {
+  fill(ExitColour);
+  noStroke();
   rect(rMX38, rMY38, rMWidth, rMHeight);
+  stroke(reset);
+  fill(resetColour);
 }//End coloursButton
 //
 void coloursBT() {}//End coloursBT
 //
 void musicButton() {
+  fill(ExitColour);
+  noStroke();
   rect(rMX33, rMY33, rMWidth, rMHeight);
+  stroke(reset);
+  fill(resetColour);
 }//End musicButton
 //
 void musicBT() {}//End musicBT
 //
 void guidesButton() {
+  fill(ExitColour);
+  noStroke();
   rect(rMX28, rMY28, rMWidth, rMHeight);
+  stroke(reset);
+  fill(resetColour);
 }//End guidesButton
 //
 void guidesBT() {}//End guidesBT

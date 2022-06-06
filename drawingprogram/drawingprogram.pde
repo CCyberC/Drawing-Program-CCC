@@ -4,7 +4,8 @@ Boolean marker=false;
 float ExitX, ExitY, ExitWidth, ExitHeight;
 float Text2X, Text2Y, Text2Width, Text2Height;
 int reset=1;
-color white=255, resetColour=white, red=#FF0303, black=0, ExitColour;
+color white=255, resetColour=white, red=#FF0303, black=0; 
+color ExitColour, nBColour, RedColour, GreenColour;
 String Exit = "EXIT";
 String Text2 = "Noice";
 //
