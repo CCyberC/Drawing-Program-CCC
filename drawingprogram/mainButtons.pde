@@ -1,4 +1,18 @@
-
+float rMWidth, rMHeight, r2Width, r2Height, r3Width, r3Height, r4Width, pDiameter;
+float rMX1, rMX2, rMX3, rMX4, rMX5, rMX6;
+float rMY1, rMY2, rMY3, rMY4, rMY5, rMY6;
+//
+void mBPopulations() {
+  rMWidth = (14/16)*(4/24);
+  rMHeight = (8/10)*(1/6);
+  r2Width = (1/12)*(20/24);
+  r2Height = (1/6);
+  r3Width = (1/4)*(8/24);
+  r3Height = (1/2)*(1/6);
+  r4Width = (1/9)*(20/24);
+  pDiameter = ;
+  
+}//mBPopulations
 //
 void exitButton() {
   fill(ExitColour);
