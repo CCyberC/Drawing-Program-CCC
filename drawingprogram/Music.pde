@@ -22,4 +22,3 @@ int currentSong = numberOfSongs - numberOfSongs;
 //
 PFont titleFont;
 //
-void 
