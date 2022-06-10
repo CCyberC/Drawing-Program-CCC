@@ -12,7 +12,9 @@ void pPop() {
   img2 = loadImage("404-4044602_free-adult-coloring-pages-artsy-coloring-pages-hd.png"); 
   img3 = loadImage("259-2592527_coloring-printable-coloring-book-pages-line-artsy-free.png");
   img4 = loadImage("55-552824_coloring-pages-printable-mandala-coloring-pages-book-mandala.png");
-  //
+}//End pPop
+//
+void pagesInserted() {
   int img1W = 820; 
   int img1H = 971; 
   int img2W = 840; 
@@ -21,4 +23,46 @@ void pPop() {
   int img3H = 1076; 
   int img4W = 860; 
   int img4H = 900; 
-}//End pPop
+  //
+  if ( img1H >= img1W ) { //ID Larger Dimension: Portrait
+    larger1D = img1H;
+    smaller1D = img1W;
+    h1Larger = true;
+  } else { //ID Larger Dimension: Landscape and Square
+    larger1D = img1W;
+    smaller1D = img1H;
+    w1Larger = true;
+  } //End pic1 larger dimension ID
+  //
+  if ( img2H >= img2W ) { //ID Larger Dimension: Portrait
+    larger2D = img2H;
+    smaller2D = img2W;
+    h2Larger = true;
+  } else { //ID Larger Dimension: Landscape and Square
+    larger2D = img2W;
+    smaller2D = img2H;
+    w2Larger = true;
+  } //End pic2 larger dimension ID
+  //
+  if ( img3H >= img3W ) { //ID Larger Dimension: Portrait
+    larger3D = img3H;
+    smaller3D = img3W;
+    h3Larger = true;
+  } else { //ID Larger Dimension: Landscape and Square
+    larger3D = img3W;
+    smaller3D = img3H;
+    w3Larger = true;
+  } //End pic4 larger dimension ID
+  //
+  if ( img4H >= img4W ) { //ID Larger Dimension: Portrait
+    larger4D = img4H;
+    smaller4D = img4W;
+    h4Larger = true;
+  } else { //ID Larger Dimension: Landscape and Square
+    larger4D = img4W;
+    smaller4D = img4H;
+    w4Larger = true;
+  } //End pic4 larger dimension ID
+  //
+  
+}//End pagesInserted
