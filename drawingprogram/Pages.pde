@@ -64,5 +64,46 @@ void pagesInserted() {
     w4Larger = true;
   } //End pic4 larger dimension ID
   //
-  
+  if ( w1Larger == true ) imgWR1 = float (larger1D) / float (larger1D);
+  if ( w1Larger == true ) imgHR1 = float (smaller1D) / float (larger1D);
+  if ( h1Larger == true ) imgWR1 = float (smaller1D) / float (larger1D);
+  if ( h1Larger == true ) imgHR1 = float (larger1D) / float (larger1D);
+  if ( w2Larger == true ) imgWR2 = float (larger2D) / float (larger2D);
+  if ( w2Larger == true ) imgHR2 = float (smaller2D) / float (larger2D);
+  if ( h2Larger == true ) imgWR2 = float (smaller2D) / float (larger2D);
+  if ( h2Larger == true ) imgHR2 = float (larger2D) / float (larger2D);
+  if ( w3Larger == true ) imgWR3 = float (larger3D) / float (larger3D);
+  if ( w3Larger == true ) imgHR3 = float (smaller3D) / float (larger3D);
+  if ( h3Larger == true ) imgWR3 = float (smaller3D) / float (larger3D);
+  if ( h3Larger == true ) imgHR3 = float (larger3D) / float (larger3D);
+  if ( w4Larger == true ) imgWR4 = float (larger4D) / float (larger4D);
+  if ( w4Larger == true ) imgHR4 = float (smaller4D) / float (larger4D);
+  if ( h4Larger == true ) imgWR4 = float (smaller4D) / float (larger4D);
+  if ( h4Larger == true ) imgHR4 = float (larger4D) / float (larger4D);
+  //
+  rectXPic1 = width*1/4;
+  rectYPic1 = height*0;
+  rectWidthPic1 = width*1/2;
+  rectHeightPic1 = height*1/2;
+  rectXPic2 = width*1/8;
+  rectYPic2 = height*1/2;
+  rectWidthPic2 = width*6/8;
+  rectHeightPic2 = height*1/2;
+  rectXPic1 = width*1/4;
+  rectYPic1 = height*0;
+  rectWidthPic1 = width*1/2;
+  rectHeightPic1 = height*1/2;
+  rectXPic2 = width*1/8;
+  rectYPic2 = height*1/2;
+  rectWidthPic2 = width*6/8;
+  rectHeightPic2 = height*1/2;
+  //
+  pic1WidthAdjusted = rectWidthPic1 * imageWidthRatioPic1;
+  pic1HeightAdjusted = rectHeightPic1 * imageHeightRatioPic1;
+  pic2WidthAdjusted = rectWidthPic2 * imageWidthRatioPic2;
+  pic2HeightAdjusted = rectHeightPic2 * imageHeightRatioPic2;
+  pic1WidthAdjusted = rectWidthPic1 * imageWidthRatioPic1;
+  pic1HeightAdjusted = rectHeightPic1 * imageHeightRatioPic1;
+  pic2WidthAdjusted = rectWidthPic2 * imageWidthRatioPic2;
+  pic2HeightAdjusted = rectHeightPic2 * imageHeightRatioPic2;
 }//End pagesInserted
