@@ -48,4 +48,5 @@ void Population() {
   Text2Width = ExitWidth;
   Text2Height = ExitHeight;
   */
+  pPop();
 }//End Population
