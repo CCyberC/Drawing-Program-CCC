@@ -137,108 +137,108 @@ void hOELavender() {
 void hOEPink() {
   //Exit HoverOver
   if ( mouseX>=rMX45 && mouseX<=rMX45+r4Width && mouseY>=rMY45 && mouseY<=rMY45+r3Height ) {
-    ExitColour = coLPink;
+    PinkColour = coLPink;
   } else {
-    ExitColour = coPink;
+    PinkColour = coPink;
   }
 }//End Exit HoverOver
 //
 void hOELightGreen() {
   //Exit HoverOver
   if ( mouseX>=rMX46 && mouseX<=rMX46+r4Width && mouseY>=rMY46 && mouseY<=rMY46+r3Height ) {
-    ExitColour = coLLightGreen;
+    LGreenColour = coLLightGreen;
   } else {
-    ExitColour = coLightGreen;
+    LGreenColour = coLightGreen;
   }
 }//End Exit HoverOver
 //
 void hOECyan() {
   //Exit HoverOver
   if ( mouseX>=rMX47 && mouseX<=rMX47+r4Width && mouseY>=rMY47 && mouseY<=rMY47+r3Height ) {
-    ExitColour = coLCyan;
+    CyanColour = coLCyan;
   } else {
-    ExitColour = coCyan;
+    CyanColour = coCyan;
   }
 }//End Exit HoverOver
 //
 void hOEDarkGreen() {
   //Exit HoverOver
   if ( mouseX>=rMX48 && mouseX<=rMX48+r4Width && mouseY>=rMY48 && mouseY<=rMY48+r3Height ) {
-    ExitColour = coLDarkGreen;
+    DGreenColour = coLDarkGreen;
   } else {
-    ExitColour = coDarkGreen;
+    DGreenColour = coDarkGreen;
   }
 }//End Exit HoverOver
 //
 void hOELightBlue() {
   //Exit HoverOver
   if ( mouseX>=rMX49 && mouseX<=rMX49+r4Width && mouseY>=rMY49 && mouseY<=rMY49+r3Height ) {
-    ExitColour = coLLightBlue;
+    LBlueColour = coLLightBlue;
   } else {
-    ExitColour = coLightBlue;
+    LBlueColour = coLightBlue;
   }
 }//End Exit HoverOver
 //
 void hOELightBrown() {
   //Exit HoverOver
   if ( mouseX>=rMX50 && mouseX<=rMX50+r4Width && mouseY>=rMY50 && mouseY<=rMY50+r3Height ) {
-    ExitColour = coLLightBrown;
+    LBrownColour = coLLightBrown;
   } else {
-    ExitColour = coLightBrown;
+    LBrownColour = coLightBrown;
   }
 }//End Exit HoverOver
 //
 void hOEPurple() {
   //Exit HoverOver
   if ( mouseX>=rMX51 && mouseX<=rMX51+r4Width && mouseY>=rMY51 && mouseY<=rMY51+r3Height ) {
-    ExitColour = coLPurple;
+    PurpleColour = coLPurple;
   } else {
-    ExitColour = coPurple;
+    PurpleColour = coPurple;
   }
 }//End Exit HoverOver
 //
 void hOEDarkBrown() {
   //Exit HoverOver
   if ( mouseX>=rMX52 && mouseX<=rMX52+r4Width && mouseY>=rMY52 && mouseY<=rMY52+r3Height ) {
-    ExitColour = coLDarkBrown;
+    DBrownColour = coLDarkBrown;
   } else {
-    ExitColour = coDarkBrown;
+    DBrownColour = coDarkBrown;
   }
 }//End Exit HoverOver
 //
 void hOEGrey() {
   //Exit HoverOver
   if ( mouseX>=rMX53 && mouseX<=rMX53+r4Width && mouseY>=rMY53 && mouseY<=rMY53+r3Height ) {
-    ExitColour = coLGrey;
+    GreyColour = coLGrey;
   } else {
-    ExitColour = coGrey;
+    GreyColour = coGrey;
   }
 }//End Exit HoverOver
 //
 void hOENavy() {
   //Exit HoverOver
   if ( mouseX>=rMX54 && mouseX<=rMX54+r4Width && mouseY>=rMY54 && mouseY<=rMY54+r3Height ) {
-    ExitColour = coLNavy;
+    NavyColour = coLNavy;
   } else {
-    ExitColour = coNavy;
+    NavyColour = coNavy;
   }
 }//End Exit HoverOver
 //
 void hOEWhite() {
   //Exit HoverOver
   if ( mouseX>=rMX55 && mouseX<=rMX55+r4Width && mouseY>=rMY55 && mouseY<=rMY55+r3Height ) {
-    ExitColour = coLWhite;
+    WhiteColour = coLWhite;
   } else {
-    ExitColour = coWhite;
+    WhiteColour = coWhite;
   }
 }//End Exit HoverOver
 //
 void hOEBlack() {
   //Exit HoverOver
   if ( mouseX>=rMX56 && mouseX<=rMX56+r4Width && mouseY>=rMY56 && mouseY<=rMY56+r3Height ) {
-    ExitColour = coLBlack;
+    BlackColour = coLBlack;
   } else {
-    ExitColour = coBlack;
+    BlackColour = coBlack;
   }
 }//End Exit HoverOver
 //

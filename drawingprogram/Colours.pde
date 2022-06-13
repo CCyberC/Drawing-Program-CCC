@@ -187,7 +187,7 @@ void pinkB() {
   fill(resetColour);
 }//End greenB
 //
-void orangeB() {
+void lGreenB() {
   fill(LGreenColour);
   noStroke();
   rect(, , , );
@@ -195,7 +195,7 @@ void orangeB() {
   fill(resetColour);
 }//End orangeB
 //
-void blueB() {
+void cyanB() {
   fill(CyanColour);
   noStroke();
   rect(, , , );
@@ -203,7 +203,7 @@ void blueB() {
   fill(resetColour);
 }//End blueB
 //
-void yellowB() {
+void dGreenB() {
   fill(DGreenColour);
   noStroke();
   rect(, , , );
@@ -211,7 +211,7 @@ void yellowB() {
   fill(resetColour);
 }//End yellowB
 //
-void lavenderB() {
+void lBlueB() {
   fill(LBlueColour);
   noStroke();
   rect(, , , );
@@ -219,7 +219,7 @@ void lavenderB() {
   fill(resetColour);
 }//End lavenderB
 //
-void greenB() {
+void lBrownB() {
   fill(LBrownColour);
   noStroke();
   rect(, , , );
@@ -227,59 +227,51 @@ void greenB() {
   fill(resetColour);
 }//End greenB
 //
-void orangeB() {
-  fill(RedColour);
+void purpleB() {
+  fill(PurpleColour);
   noStroke();
   rect(, , , );
   stroke(reset);
   fill(resetColour);
 }//End orangeB
 //
-void blueB() {
-  fill(RedColour);
+void dBrownB() {
+  fill(DBrownColour);
   noStroke();
   rect(, , , );
   stroke(reset);
   fill(resetColour);
 }//End blueB
 //
-void yellowB() {
-  fill(RedColour);
+void greyB() {
+  fill(GreyColour);
   noStroke();
   rect(, , , );
   stroke(reset);
   fill(resetColour);
 }//End yellowB
 //
-void lavenderB() {
-  fill(RedColour);
+void navyB() {
+  fill(NavyColour);
   noStroke();
   rect(, , , );
   stroke(reset);
   fill(resetColour);
 }//End lavenderB
 //
-void blueB() {
-  fill(RedColour);
+void whiteB() {
+  fill(WhiteColour);
   noStroke();
   rect(, , , );
   stroke(reset);
   fill(resetColour);
 }//End blueB
 //
-void yellowB() {
-  fill(RedColour);
+void blackB() {
+  fill(BlackColour);
   noStroke();
   rect(, , , );
   stroke(reset);
   fill(resetColour);
 }//End yellowB
-//
-void lavenderB() {
-  fill(RedColour);
-  noStroke();
-  rect(, , , );
-  stroke(reset);
-  fill(resetColour);
-}//End lavenderB
 //
