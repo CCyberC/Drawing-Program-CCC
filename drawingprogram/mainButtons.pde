@@ -184,7 +184,7 @@ void framesBT() {
   textAlign (CENTER, CENTER); 
   size = 25; 
   textFont(font, size);
-  text(Exit, ExitX, ExitY, ExitWidth, ExitHeight);
+  text(Exit, rMX19, rMY19, rMWidth, rMHeight);
 }//End framesBT
 //
 void pagesButton() {

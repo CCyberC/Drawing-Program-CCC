@@ -134,7 +134,7 @@ void ColourBlack() {
 void redB() {
   fill(RedColour);
   noStroke();
-  rect(, , , );
+  rect( rMX39, rMY39, r4Width, r3Height );
   stroke(reset);
   fill(resetColour);
 }//End redB
@@ -142,7 +142,7 @@ void redB() {
 void greenB() {
   fill(GreenColour);
   noStroke();
-  rect(, , , );
+  rect( rMX40, rMY40, r4Width, r3Height );
   stroke(reset);
   fill(resetColour);
 }//End greenB
@@ -150,7 +150,7 @@ void greenB() {
 void orangeB() {
   fill(OrangeColour);
   noStroke();
-  rect(, , , );
+  rect( rMX41, rMY41, r4Width, r3Height );
   stroke(reset);
   fill(resetColour);
 }//End orangeB
@@ -158,7 +158,7 @@ void orangeB() {
 void blueB() {
   fill(BlueColour);
   noStroke();
-  rect(, , , );
+  rect( rMX42, rMY42, r4Width, r3Height );
   stroke(reset);
   fill(resetColour);
 }//End blueB
@@ -166,7 +166,7 @@ void blueB() {
 void yellowB() {
   fill(YellowColour);
   noStroke();
-  rect(, , , );
+  rect( rMX43, rMY43, r4Width, r3Height );
   stroke(reset);
   fill(resetColour);
 }//End yellowB
@@ -174,7 +174,7 @@ void yellowB() {
 void lavenderB() {
   fill(LavenderColour);
   noStroke();
-  rect(, , , );
+  rect( rMX44, rMY44, r4Width, r3Height );
   stroke(reset);
   fill(resetColour);
 }//End lavenderB
@@ -182,7 +182,7 @@ void lavenderB() {
 void pinkB() {
   fill(PinkColour);
   noStroke();
-  rect(, , , );
+  rect( rMX45, rMY45, r4Width, r3Height );
   stroke(reset);
   fill(resetColour);
 }//End greenB
@@ -190,7 +190,7 @@ void pinkB() {
 void lGreenB() {
   fill(LGreenColour);
   noStroke();
-  rect(, , , );
+  rect( rMX46, rMY46, r4Width, r3Height );
   stroke(reset);
   fill(resetColour);
 }//End orangeB
@@ -198,7 +198,7 @@ void lGreenB() {
 void cyanB() {
   fill(CyanColour);
   noStroke();
-  rect(, , , );
+  rect( rMX47, rMY47, r4Width, r3Height );
   stroke(reset);
   fill(resetColour);
 }//End blueB
@@ -206,7 +206,7 @@ void cyanB() {
 void dGreenB() {
   fill(DGreenColour);
   noStroke();
-  rect(, , , );
+  rect( rMX48, rMY48, r4Width, r3Height );
   stroke(reset);
   fill(resetColour);
 }//End yellowB
@@ -214,7 +214,7 @@ void dGreenB() {
 void lBlueB() {
   fill(LBlueColour);
   noStroke();
-  rect(, , , );
+  rect( rMX49, rMY49, r4Width, r3Height );
   stroke(reset);
   fill(resetColour);
 }//End lavenderB
@@ -222,7 +222,7 @@ void lBlueB() {
 void lBrownB() {
   fill(LBrownColour);
   noStroke();
-  rect(, , , );
+  rect( rMX50, rMY50, r4Width, r3Height );
   stroke(reset);
   fill(resetColour);
 }//End greenB
@@ -230,7 +230,7 @@ void lBrownB() {
 void purpleB() {
   fill(PurpleColour);
   noStroke();
-  rect(, , , );
+  rect( rMX51, rMY51, r4Width, r3Height );
   stroke(reset);
   fill(resetColour);
 }//End orangeB
@@ -238,7 +238,7 @@ void purpleB() {
 void dBrownB() {
   fill(DBrownColour);
   noStroke();
-  rect(, , , );
+  rect( rMX52, rMY52, r4Width, r3Height );
   stroke(reset);
   fill(resetColour);
 }//End blueB
@@ -246,7 +246,7 @@ void dBrownB() {
 void greyB() {
   fill(GreyColour);
   noStroke();
-  rect(, , , );
+  rect( rMX53, rMY53, r4Width, r3Height );
   stroke(reset);
   fill(resetColour);
 }//End yellowB
@@ -254,7 +254,7 @@ void greyB() {
 void navyB() {
   fill(NavyColour);
   noStroke();
-  rect(, , , );
+  rect( rMX54, rMY54, r4Width, r3Height );
   stroke(reset);
   fill(resetColour);
 }//End lavenderB
@@ -262,7 +262,7 @@ void navyB() {
 void whiteB() {
   fill(WhiteColour);
   noStroke();
-  rect(, , , );
+  rect( rMX55, rMY55, r4Width, r3Height );
   stroke(reset);
   fill(resetColour);
 }//End blueB
@@ -270,7 +270,7 @@ void whiteB() {
 void blackB() {
   fill(BlackColour);
   noStroke();
-  rect(, , , );
+  rect( rMX56, rMY56, r4Width, r3Height );
   stroke(reset);
   fill(resetColour);
 }//End yellowB
