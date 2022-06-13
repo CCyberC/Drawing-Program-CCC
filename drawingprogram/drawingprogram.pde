@@ -24,6 +24,9 @@ void setup() {
   font = createFont ("Ebrima", initialFontSize);
   //
   CANVAS();
+  //
+  pagesInserted();
+  //
 }//End setup
 //
 void draw() {
@@ -60,6 +63,9 @@ void draw() {
   size = 25; //Change units until it fits
   textFont(font, size);
   text(Text2, Text2X, Text2Y, Text2Width, Text2Height);
+  //
+  pagesDraw();
+  //
 }//End draw
 //
 void keyPressed() {

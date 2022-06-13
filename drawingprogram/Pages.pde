@@ -9,7 +9,7 @@ float WA1, HA1, WA2, HA2, WA3, HA3, WA4, HA4;
 //
 void pPop() {
   img1 = loadImage("499-4998394_jpg-library-library-afro-transparent-coloring-page-coloring.png"); 
-  img2 = loadImage("404-4044602_free-adult-coloring-pages-artsy-coloring-pages-hd.png"); 
+  img2 = loadImage("17-172989_woman-coloring-pages-for-teens-girl-colouring-pages.png"); 
   img3 = loadImage("259-2592527_coloring-printable-coloring-book-pages-line-artsy-free.png");
   img4 = loadImage("55-552824_coloring-pages-printable-mandala-coloring-pages-book-mandala.png");
 }//End pPop
@@ -17,8 +17,8 @@ void pPop() {
 void pagesInserted() {
   int img1W = 820; 
   int img1H = 971; 
-  int img2W = 840; 
-  int img2H = 1163; 
+  int img2W = 860; 
+  int img2H = 1121; 
   int img3W = 860; 
   int img3H = 1076; 
   int img4W = 860; 
@@ -81,21 +81,21 @@ void pagesInserted() {
   if ( h4Larger == true ) imgWR4 = float (smaller4D) / float (larger4D);
   if ( h4Larger == true ) imgHR4 = float (larger4D) / float (larger4D);
   //
-  imgX1 = canvasX;
+  imgX1 = canvasX+(canvasWidth*(1.0/24.0));
   imgY1 = canvasY;
-  imgWidth1 = canvasWidth;
+  imgWidth1 = canvasWidth*(11.0/12.0);
   imgHeight1 = canvasHeight;
-  imgX2 = canvasX;
+  imgX2 = canvasX+(canvasWidth*(1.0/8.0));
   imgY2 = canvasY;
-  imgWidth2 = canvasWidth;
+  imgWidth2 = canvasWidth*(3.0/4.0);
   imgHeight2 = canvasHeight;
-  imgX3 = canvasX;
+  imgX3 = canvasX+(canvasWidth*(1.0/16.0));
   imgY3 = canvasY;
-  imgWidth3 = canvasWidth;
+  imgWidth3 = canvasWidth*(7.0/8.0);
   imgHeight3 = canvasHeight;
-  imgX4 = canvasX;
+  imgX4 = canvasX+(canvasWidth*(1.0/8.0));
   imgY4 = canvasY;
-  imgWidth4 = canvasWidth;
+  imgWidth4 = canvasWidth*(3.0/4.0);
   imgHeight4 = canvasHeight;
   //
   WA1 = imgWidth1 * imgWR1;
@@ -107,3 +107,10 @@ void pagesInserted() {
   WA4 = imgWidth4 * imgWR4;
   HA4 = imgHeight4 * imgHR4;
 }//End pagesInserted
+//
+void pagesDraw() {
+  image(img1, imgX1, imgY1, imgWidth1, imgHeight1);
+  image(img2, imgX2, imgY2, imgWidth2, imgHeight2);
+  image(img3, imgX3, imgY3, imgWidth3, imgHeight3);
+  image(img4, imgX4, imgY4, imgWidth4, imgHeight4);
+}//End pagesDraw
