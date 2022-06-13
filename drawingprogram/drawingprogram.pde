@@ -84,6 +84,8 @@ void mousePressed() {
   //
   if ( mouseX>=Text2X && mouseX<=Text2X+Text2Width && mouseY>=Text2Y && mouseY<=Text2Y+Text2Height ) canvo=true;
   //
+  Colours();
+  //
 }//End mousePressed
 //
 //End MAIN

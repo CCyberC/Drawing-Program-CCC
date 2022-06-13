@@ -36,74 +36,95 @@ String textnavy = "Navy";
 String textwhite = "White";
 String textblack = "Black";
 //
+void Colours() {
+  ColourRed();
+  ColourGreen();
+  ColourOrange();
+  ColourBlue();
+  ColourYellow();
+  ColourLavender();
+  ColourPink();
+  ColourLightGreen();
+  ColourCyan();
+  ColourDarkGreen();
+  ColourLightBlue();
+  ColourLightBrown();
+  ColourPurple();
+  ColourDarkBrown();
+  ColourGrey();
+  ColourNavy();
+  ColourWhite();
+  ColourBlack();
+}//End Colours
+//
 void ColourRed() {
-  
+  if ( mouseX>=ExitX && mouseX<=ExitX+ExitWidth && mouseY>=ExitY && mouseY<=ExitY+ExitHeight );
 }//End Colours
 //
 void ColourGreen() {
-  
+  if ( mouseX>=ExitX && mouseX<=ExitX+ExitWidth && mouseY>=ExitY && mouseY<=ExitY+ExitHeight );
 }//End Colours
 //
 void ColourOrange() {
-  
+  if ( mouseX>=ExitX && mouseX<=ExitX+ExitWidth && mouseY>=ExitY && mouseY<=ExitY+ExitHeight );
 }//End Colours
 //
 void ColourBlue() {
-  
+  if ( mouseX>=ExitX && mouseX<=ExitX+ExitWidth && mouseY>=ExitY && mouseY<=ExitY+ExitHeight );
 }//End Colours
 //
 void ColourYellow() {
-  
+  if ( mouseX>=ExitX && mouseX<=ExitX+ExitWidth && mouseY>=ExitY && mouseY<=ExitY+ExitHeight );
 }//End Colours
 //
 void ColourLavender() {
-  
+  if ( mouseX>=ExitX && mouseX<=ExitX+ExitWidth && mouseY>=ExitY && mouseY<=ExitY+ExitHeight );
 }//End Colours
 //
 void ColourPink() {
-  
+  if ( mouseX>=ExitX && mouseX<=ExitX+ExitWidth && mouseY>=ExitY && mouseY<=ExitY+ExitHeight );
 }//End Colours
 //
 void ColourLightGreen() {
-  
+  if ( mouseX>=ExitX && mouseX<=ExitX+ExitWidth && mouseY>=ExitY && mouseY<=ExitY+ExitHeight );
 }//End Colours
 //
 void ColourCyan() {
-  
+  if ( mouseX>=ExitX && mouseX<=ExitX+ExitWidth && mouseY>=ExitY && mouseY<=ExitY+ExitHeight );
 }//End Colours
 //
 void ColourDarkGreen() {
-  
+  if ( mouseX>=ExitX && mouseX<=ExitX+ExitWidth && mouseY>=ExitY && mouseY<=ExitY+ExitHeight );
 }//End Colours
 //
 void ColourLightBlue() {
-  
+  if ( mouseX>=ExitX && mouseX<=ExitX+ExitWidth && mouseY>=ExitY && mouseY<=ExitY+ExitHeight );
 }//End Colours
 //
 void ColourLightBrown() {
-  
+  if ( mouseX>=ExitX && mouseX<=ExitX+ExitWidth && mouseY>=ExitY && mouseY<=ExitY+ExitHeight );
 }//End Colours
 //
 void ColourPurple() {
-  
+  if ( mouseX>=ExitX && mouseX<=ExitX+ExitWidth && mouseY>=ExitY && mouseY<=ExitY+ExitHeight );
 }//End Colours
 //
 void ColourDarkBrown() {
-  
+  if ( mouseX>=ExitX && mouseX<=ExitX+ExitWidth && mouseY>=ExitY && mouseY<=ExitY+ExitHeight );
 }//End Colours
 //
 void ColourGrey() {
-  
+  if ( mouseX>=ExitX && mouseX<=ExitX+ExitWidth && mouseY>=ExitY && mouseY<=ExitY+ExitHeight );
 }//End Colours
 //
 void ColourNavy() {
-  
+  if ( mouseX>=ExitX && mouseX<=ExitX+ExitWidth && mouseY>=ExitY && mouseY<=ExitY+ExitHeight );
 }//End Colours
 //
 void ColourWhite() {
-  
+  if ( mouseX>=ExitX && mouseX<=ExitX+ExitWidth && mouseY>=ExitY && mouseY<=ExitY+ExitHeight );
 }//End Colours
 //
 void ColourBlack() {
-  
+  if ( mouseX>=ExitX && mouseX<=ExitX+ExitWidth && mouseY>=ExitY && mouseY<=ExitY+ExitHeight );
 }//End Colours

@@ -13,7 +13,6 @@ float rMY37, rMY38, rMY39, rMY40, rMY41, rMY42, rMY43, rMY44, rMY45, rMY46, rMY4
 float rMY49, rMY50, rMY51, rMY52, rMY53, rMY54, rMY55, rMY56;
 //
 void mBPopulations() {
-  
 }//End mBPopulations
 //
 void bPopulations() {
@@ -180,7 +179,13 @@ void framesButton() {
   fill(resetColour);
 }//End framesButton
 //
-void framesBT() {}//End framesBT
+void framesBT() {
+  fill(black); 
+  textAlign (CENTER, CENTER); 
+  size = 25; 
+  textFont(font, size);
+  text(Exit, ExitX, ExitY, ExitWidth, ExitHeight);
+}//End framesBT
 //
 void pagesButton() {
   fill(nB2Colour);
@@ -190,7 +195,8 @@ void pagesButton() {
   fill(resetColour);
 }//End pagesButton
 //
-void pagesBT() {}//End pagesBT
+void pagesBT() {
+}//End pagesBT
 //
 void toolsButton() {
   fill(nB1Colour);
@@ -200,7 +206,8 @@ void toolsButton() {
   fill(resetColour);
 }//End toolsButton
 //
-void toolsBT() {}//End toolsBT
+void toolsBT() {
+}//End toolsBT
 //
 void coloursButton() {
   fill(nB6Colour);
@@ -210,7 +217,8 @@ void coloursButton() {
   fill(resetColour);
 }//End coloursButton
 //
-void coloursBT() {}//End coloursBT
+void coloursBT() {
+}//End coloursBT
 //
 void musicButton() {
   fill(nB5Colour);
@@ -220,7 +228,8 @@ void musicButton() {
   fill(resetColour);
 }//End musicButton
 //
-void musicBT() {}//End musicBT
+void musicBT() {
+}//End musicBT
 //
 void guidesButton() {
   fill(nB4Colour);
@@ -230,4 +239,5 @@ void guidesButton() {
   fill(resetColour);
 }//End guidesButton
 //
-void guidesBT() {}//End guidesBT
+void guidesBT() {
+}//End guidesBT
