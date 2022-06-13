@@ -67,6 +67,8 @@ void draw() {
   textFont(font, size);
   text(Text2, Text2X, Text2Y, Text2Width, Text2Height);
   //
+  Tools();
+  //
   pagesDraw();
   //
 }//End draw

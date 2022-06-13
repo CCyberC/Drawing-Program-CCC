@@ -273,3 +273,13 @@ void guidesBT() {
   textFont(font, size);
   text(Measures, rMX28, rMY28, rMWidth, rMHeight);
 }//End guidesBT
+//
+void Tools() {
+  fill(white);
+  rect(rMX1, rMY1, rMWidth, rMHeight);
+  fill(black); 
+  textAlign (CENTER, CENTER); 
+  size = 25; 
+  textFont(font, size);
+  text(Tools, rMX1, rMY1, rMWidth, rMHeight);
+}//End Tools

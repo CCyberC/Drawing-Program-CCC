@@ -84,8 +84,10 @@ void hOERed() {
   //Exit HoverOver
   if ( mouseX>=rMX39 && mouseX<=rMX39+r4Width && mouseY>=rMY39 && mouseY<=rMY39+r3Height ) {
     RedColour = coLRed;
+    rect(rMX39, rMY39, r4Width, r3Height);
   } else {
     RedColour = coRed;
+    rect(rMX39, rMY39, r4Width, r3Height);
   }
 }//End Exit HoverOver
 //
