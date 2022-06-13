@@ -20,7 +20,7 @@ void Population() {
   //Inside the Lines
   ItLX = canvasX;
   ItLY = canvasY;
-  ItLW = canvasWidth;
+  ItLW = canvasWidth-(1.0/16.0);
   ItLH = canvasHeight;
   //
   ///*

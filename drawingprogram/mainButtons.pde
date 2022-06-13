@@ -12,6 +12,13 @@ float rMY25, rMY26, rMY27, rMY28, rMY29, rMY30, rMY31, rMY32, rMY33, rMY34, rMY3
 float rMY37, rMY38, rMY39, rMY40, rMY41, rMY42, rMY43, rMY44, rMY45, rMY46, rMY47, rMY48;
 float rMY49, rMY50, rMY51, rMY52, rMY53, rMY54, rMY55, rMY56;
 //
+String Tools = "Tools";
+String Pages = "Pages";
+String Frames = "Frames";
+String Measures = "Measure";
+String Music = "Music";
+String Colours = "Colours";
+//
 void mBPopulations() {
 }//End mBPopulations
 //
@@ -184,7 +191,7 @@ void framesBT() {
   textAlign (CENTER, CENTER); 
   size = 25; 
   textFont(font, size);
-  text(Exit, rMX19, rMY19, rMWidth, rMHeight);
+  text(Frames, rMX19, rMY19, rMWidth, rMHeight);
 }//End framesBT
 //
 void pagesButton() {
@@ -196,6 +203,11 @@ void pagesButton() {
 }//End pagesButton
 //
 void pagesBT() {
+  fill(black); 
+  textAlign (CENTER, CENTER); 
+  size = 25; 
+  textFont(font, size);
+  text(Pages, rMX14, rMY14, rMWidth, rMHeight);
 }//End pagesBT
 //
 void toolsButton() {
@@ -207,6 +219,11 @@ void toolsButton() {
 }//End toolsButton
 //
 void toolsBT() {
+  fill(black); 
+  textAlign (CENTER, CENTER); 
+  size = 25; 
+  textFont(font, size);
+  text(Tools, rMX1, rMY1, rMWidth, rMHeight);
 }//End toolsBT
 //
 void coloursButton() {
@@ -218,6 +235,11 @@ void coloursButton() {
 }//End coloursButton
 //
 void coloursBT() {
+  fill(black); 
+  textAlign (CENTER, CENTER); 
+  size = 25; 
+  textFont(font, size);
+  text(Colours, rMX38, rMY38, rMWidth, rMHeight);
 }//End coloursBT
 //
 void musicButton() {
@@ -229,6 +251,11 @@ void musicButton() {
 }//End musicButton
 //
 void musicBT() {
+  fill(black); 
+  textAlign (CENTER, CENTER); 
+  size = 25; 
+  textFont(font, size);
+  text(Music, rMX33, rMY33, rMWidth, rMHeight);
 }//End musicBT
 //
 void guidesButton() {
@@ -240,4 +267,9 @@ void guidesButton() {
 }//End guidesButton
 //
 void guidesBT() {
+  fill(black); 
+  textAlign (CENTER, CENTER); 
+  size = 25; 
+  textFont(font, size);
+  text(Measures, rMX28, rMY28, rMWidth, rMHeight);
 }//End guidesBT
