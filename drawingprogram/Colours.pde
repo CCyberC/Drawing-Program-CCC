@@ -164,7 +164,7 @@ void blueB() {
 }//End blueB
 //
 void yellowB() {
-  fill(RedColour);
+  fill(YellowColour);
   noStroke();
   rect(, , , );
   stroke(reset);
@@ -172,7 +172,7 @@ void yellowB() {
 }//End yellowB
 //
 void lavenderB() {
-  fill(RedColour);
+  fill(LavenderColour);
   noStroke();
   rect(, , , );
   stroke(reset);
@@ -180,7 +180,7 @@ void lavenderB() {
 }//End lavenderB
 //
 void pinkB() {
-  fill(RedColour);
+  fill(PinkColour);
   noStroke();
   rect(, , , );
   stroke(reset);
@@ -188,7 +188,7 @@ void pinkB() {
 }//End greenB
 //
 void orangeB() {
-  fill(RedColour);
+  fill(LGreenColour);
   noStroke();
   rect(, , , );
   stroke(reset);
@@ -196,7 +196,7 @@ void orangeB() {
 }//End orangeB
 //
 void blueB() {
-  fill(RedColour);
+  fill(CyanColour);
   noStroke();
   rect(, , , );
   stroke(reset);
@@ -204,7 +204,7 @@ void blueB() {
 }//End blueB
 //
 void yellowB() {
-  fill(RedColour);
+  fill(DGreenColour);
   noStroke();
   rect(, , , );
   stroke(reset);
@@ -212,14 +212,15 @@ void yellowB() {
 }//End yellowB
 //
 void lavenderB() {
-  fill(RedColour);
+  fill(LBlueColour);
   noStroke();
   rect(, , , );
   stroke(reset);
   fill(resetColour);
 }//End lavenderB
-//void greenB() {
-  fill(RedColour);
+//
+void greenB() {
+  fill(LBrownColour);
   noStroke();
   rect(, , , );
   stroke(reset);

@@ -119,18 +119,18 @@ void hOEBlue() {
 void hOEYellow() {
   //Exit HoverOver
   if ( mouseX>=rMX43 && mouseX<=rMX43+r4Width && mouseY>=rMY43 && mouseY<=rMY43+r3Height ) {
-    ExitColour = coLYellow;
+    YellowColour = coLYellow;
   } else {
-    ExitColour = coYellow;
+    YellowColour = coYellow;
   }
 }//End Exit HoverOver
 //
 void hOELavender() {
   //Exit HoverOver
   if ( mouseX>=rMX44 && mouseX<=rMX44+r4Width && mouseY>=rMY44 && mouseY<=rMY44+r3Height ) {
-    ExitColour = coLLavender;
+    LavenderColour = coLLavender;
   } else {
-    ExitColour = coLavender;
+    LavenderColour = coLavender;
   }
 }//End Exit HoverOver
 //
