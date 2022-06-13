@@ -131,6 +131,27 @@ void ColourBlack() {
 //
 //
 //
+void colourButtons() {
+  redB();
+  greenB();
+  orangeB();
+  blueB();
+  yellowB();
+  lavenderB();
+  pinkB();
+  lGreenB();
+  cyanB();
+  dGreenB();
+  lBlueB();
+  lBrownB();
+  purpleB();
+  dBrownB();
+  greyB();
+  navyB();
+  whiteB();
+  blackB();
+}//End colourButtons
+//
 void redB() {
   fill(RedColour);
   noStroke();

@@ -54,6 +54,8 @@ void draw() {
   //
   coloursButton();
   //
+  colourButtons();
+  //
   //Second Rectangle with More Text
   fill(white);
   rect(Text2X, Text2Y, Text2Width, Text2Height);
