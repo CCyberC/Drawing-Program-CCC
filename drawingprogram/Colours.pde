@@ -128,3 +128,157 @@ void ColourWhite() {
 void ColourBlack() {
   if ( mouseX>=rMX56 && mouseX<=rMX56+r4Width && mouseY>=rMY56 && mouseY<=rMY56+r3Height );
 }//End Colours
+//
+//
+//
+void redB() {
+  fill(RedColour);
+  noStroke();
+  rect(, , , );
+  stroke(reset);
+  fill(resetColour);
+}//End redB
+//
+void greenB() {
+  fill(GreenColour);
+  noStroke();
+  rect(, , , );
+  stroke(reset);
+  fill(resetColour);
+}//End greenB
+//
+void orangeB() {
+  fill(OrangeColour);
+  noStroke();
+  rect(, , , );
+  stroke(reset);
+  fill(resetColour);
+}//End orangeB
+//
+void blueB() {
+  fill(BlueColour);
+  noStroke();
+  rect(, , , );
+  stroke(reset);
+  fill(resetColour);
+}//End blueB
+//
+void yellowB() {
+  fill(RedColour);
+  noStroke();
+  rect(, , , );
+  stroke(reset);
+  fill(resetColour);
+}//End yellowB
+//
+void lavenderB() {
+  fill(RedColour);
+  noStroke();
+  rect(, , , );
+  stroke(reset);
+  fill(resetColour);
+}//End lavenderB
+//
+void pinkB() {
+  fill(RedColour);
+  noStroke();
+  rect(, , , );
+  stroke(reset);
+  fill(resetColour);
+}//End greenB
+//
+void orangeB() {
+  fill(RedColour);
+  noStroke();
+  rect(, , , );
+  stroke(reset);
+  fill(resetColour);
+}//End orangeB
+//
+void blueB() {
+  fill(RedColour);
+  noStroke();
+  rect(, , , );
+  stroke(reset);
+  fill(resetColour);
+}//End blueB
+//
+void yellowB() {
+  fill(RedColour);
+  noStroke();
+  rect(, , , );
+  stroke(reset);
+  fill(resetColour);
+}//End yellowB
+//
+void lavenderB() {
+  fill(RedColour);
+  noStroke();
+  rect(, , , );
+  stroke(reset);
+  fill(resetColour);
+}//End lavenderB
+//void greenB() {
+  fill(RedColour);
+  noStroke();
+  rect(, , , );
+  stroke(reset);
+  fill(resetColour);
+}//End greenB
+//
+void orangeB() {
+  fill(RedColour);
+  noStroke();
+  rect(, , , );
+  stroke(reset);
+  fill(resetColour);
+}//End orangeB
+//
+void blueB() {
+  fill(RedColour);
+  noStroke();
+  rect(, , , );
+  stroke(reset);
+  fill(resetColour);
+}//End blueB
+//
+void yellowB() {
+  fill(RedColour);
+  noStroke();
+  rect(, , , );
+  stroke(reset);
+  fill(resetColour);
+}//End yellowB
+//
+void lavenderB() {
+  fill(RedColour);
+  noStroke();
+  rect(, , , );
+  stroke(reset);
+  fill(resetColour);
+}//End lavenderB
+//
+void blueB() {
+  fill(RedColour);
+  noStroke();
+  rect(, , , );
+  stroke(reset);
+  fill(resetColour);
+}//End blueB
+//
+void yellowB() {
+  fill(RedColour);
+  noStroke();
+  rect(, , , );
+  stroke(reset);
+  fill(resetColour);
+}//End yellowB
+//
+void lavenderB() {
+  fill(RedColour);
+  noStroke();
+  rect(, , , );
+  stroke(reset);
+  fill(resetColour);
+}//End lavenderB
+//
