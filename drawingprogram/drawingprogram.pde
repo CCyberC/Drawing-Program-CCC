@@ -8,11 +8,10 @@ color white=255, resetColour=white, red=#FF0303, black=0;
 color ExitColour, nB1Colour, nB2Colour, nB3Colour, nB4Colour, nB5Colour, nB6Colour;
 color RedColour, GreenColour, OrangeColour, BlueColour, YellowColour, LavenderColour, PinkColour, LGreenColour, CyanColour, DGreenColour, LBlueColour, LBrownColour, PurpleColour, DBrownColour, GreyColour, NavyColour, WhiteColour, BlackColour;
 String Exit = "EXIT";
-String Text2 = "Noice";
+String Text2 = "Reset";
 //
 PFont font;
-int initialFontSize=55;
-int size;
+int initialFontSize=55, size;
 //
 void setup() {
   //
@@ -36,7 +35,7 @@ void draw() {
   //
   //Drawing Tools
   //if ( ... ==true && mouseX>=canvasX && mouseX<=canvasX+canvasWidth && mouseY>=canvasY && mouseY<=canvasY+canvasHeight ) line( mouseX, mouseY, pmouseX, pmouseY ) ;//End ...
-  if ( marker==true && mouseX>=ItLX && mouseX<=ItLX+ItLW && mouseY>=ItLY && mouseY<=ItLY+ItLH ) ellipse ( mouseX, mouseY,  circleDiameter, circleDiameter); //Circle Drawing Tool
+  if ( marker==true && mouseX>=canvasX && mouseX<=canvasX+canvasWidth && mouseY>=canvasY && mouseY<=canvasY+canvasHeight ) ellipse ( mouseX, mouseY,  circleDiameter, circleDiameter); //Circle Drawing Tool
   //
   hoverOverExit();
   exitButton();
@@ -47,6 +46,7 @@ void draw() {
   pagesButton();
   //
   framesButton();
+  framesBT();
   //
   guidesButton();
   //
