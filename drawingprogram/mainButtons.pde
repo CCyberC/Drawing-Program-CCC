@@ -17,13 +17,22 @@ void exitButton() {
 }//End exitButton
 //
 void textExitButton() {
-  //Text, Exit Button
+  /*//Text, Exit Button
   fill(black); //Ink
   textAlign (CENTER, CENTER); //Align X+Y, see Processing.org / Reference
   //Values: [LEFT | CENTER | RIGHT] , [TOP | CENTER | BOTTOM | BASELINE]
   size = 25; //Change units until it fits
   textFont(font, size);
   text(Exit, ExitX, ExitY, ExitWidth, ExitHeight);
+  //
+  */
+  rect(ExitX, ExitY, ExitWidth, ExitHeight);
+  fill(ExitColour);
+  textAlign(CENTER, CENTER);
+  size = 25;
+  textFont(font, size);
+  text(Exit, ExitX, ExitY, ExitWidth, ExitHeight);
+  fill(resetColour);
 }//End textExitButton
 //
 void framesButton() {
